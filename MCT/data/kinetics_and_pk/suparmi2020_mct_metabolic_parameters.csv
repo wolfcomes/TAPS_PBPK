@@ -1,0 +1,13 @@
+﻿organ,parameter,value,unit,source,interpretation,caveat
+Liver,Vmax,0.06,nmol/min/mg microsomal protein,10.1007/s00204-020-02798-z Table2,pooled microsomal parent depletion,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Liver,Km,9.2,uM,10.1007/s00204-020-02798-z Table2,pooled microsomal parent depletion,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Liver,kcat_as_named_in_article,0.01,ml/min/mg microsomal protein,10.1007/s00204-020-02798-z Table2,"clearance-like Vmax/Km, NOT turnover kcat",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Liver,scaled_Vmax,2.1,nmol/min/g tissue,10.1007/s00204-020-02798-z Table2,author printed scaled value,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Liver,scaled_kcat_per_g,0.2,ml/min/g tissue,10.1007/s00204-020-02798-z Table2,"clearance-like, NOT turnover",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Liver,scaled_kcat_organ,1.9,ml/min/tissue,10.1007/s00204-020-02798-z Table2,"clearance-like, NOT turnover",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,Vmax,0.02,nmol/min/mg microsomal protein,10.1007/s00204-020-02798-z Table2,pooled microsomal parent depletion,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,Km,13.4,uM,10.1007/s00204-020-02798-z Table2,pooled microsomal parent depletion,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,kcat_as_named_in_article,0.001,ml/min/mg microsomal protein,10.1007/s00204-020-02798-z Table2,"clearance-like Vmax/Km, NOT turnover kcat",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,scaled_Vmax,0.4,nmol/min/g tissue,10.1007/s00204-020-02798-z Table2,author printed scaled value,not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,scaled_kcat_per_g,0.03,ml/min/g tissue,10.1007/s00204-020-02798-z Table2,"clearance-like, NOT turnover",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained
+Intestine,scaled_kcat_organ,0.1,ml/min/tissue,10.1007/s00204-020-02798-z Table2,"clearance-like, NOT turnover",not rat CYP3A1-specific; not dehydromonocrotaline formation; published rounded values retained

@@ -1,0 +1,12 @@
+{
+  "completed_runs": 102,
+  "cases": 6,
+  "analytes": "parent in all six cases; metabolite in four (not DXM_IV_EM or DXM_PO_AS2)",
+  "original_source_hashes_unchanged": true,
+  "max_R_python_metric_relative_error": 3.055127671746417e-13,
+  "max_baseline_repeat_absolute_error": 0,
+  "minimum_concentration": 0.0,
+  "total_negative_concentration_values": 0,
+  "maximum_snapshot_export_peak_normalized_error": 5.4665976898412676e-08,
+  "notes": "Finite-window AUC; diagnostic factors, not estimated biological uncertainty. No fitting, TAPS, or QM/MM performed."
+}

@@ -1,0 +1,327 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Rat",
+      "Molecule": "MCT_TotalMetabolism",
+      "Category": "InVitro",
+      "Localization": "Intracellular",
+      "Parameters": [
+        {
+          "Path": "MCT_TotalMetabolism|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|MCT_TotalMetabolism|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|MCT_TotalMetabolism|Relative expression",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Rat_200g",
+      "Seed": 168709203,
+      "OriginData": {
+        "Species": "Rat",
+        "Population": "Rat",
+        "Gender": "UNKNOWN",
+        "Weight": {
+          "Value": 0.2,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "MCT_TotalMetabolism|Rat|InVitro"
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "MCT",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Suparmi2020_predicted",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": -0.65,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Rat_serum_RED",
+          "Species": "Rat",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.53
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Assumed_nonlimiting_solution",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 10000,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.5
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationSpecific_MM",
+          "DataSource": "Suparmi2020",
+          "Molecule": "MCT_TotalMetabolism",
+          "Parameters": [
+            {
+              "Name": "kcat",
+              "Value": 2.1,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 9.2,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - PK-Sim Standard",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 325.36,
+          "Unit": "g/mol"
+        }
+      ],
+      "Description": "Uncalibrated rat pilot. Total hepatic metabolism from Suparmi 2020. pKa=6.5 scenario assumption; no fitting to Lin 2021."
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Solution",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Oral",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 10,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 10,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "IV",
+      "ApplicationType": "IntravenousBolus",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1,
+          "Unit": "mg/kg"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "S1",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 120,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 12,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Individual": "Rat_200g",
+      "Compounds": [
+        {
+          "Name": "MCT",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "MCT_TotalMetabolism-Suparmi2020",
+              "MoleculeName": "MCT_TotalMetabolism"
+            }
+          ],
+          "Protocol": {
+            "Name": "Oral",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": false
+    },
+    {
+      "Name": "S2",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 120,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 12,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Individual": "Rat_200g",
+      "Compounds": [
+        {
+          "Name": "MCT",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - PK-Sim Standard",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "MCT_TotalMetabolism-Suparmi2020",
+              "MoleculeName": "MCT_TotalMetabolism"
+            }
+          ],
+          "Protocol": {
+            "Name": "IV"
+          }
+        }
+      ],
+      "HasResults": false
+    }
+  ]
+}

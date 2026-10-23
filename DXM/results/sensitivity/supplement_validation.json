@@ -1,0 +1,47 @@
+{
+  "input_and_diagnostic_checks": [
+    {
+      "case": "DXM_PO_EM",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    },
+    {
+      "case": "DXM_IV_EM",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    },
+    {
+      "case": "DES_PO_EM",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    },
+    {
+      "case": "DES_IV_EM",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    },
+    {
+      "case": "DES_PO_AS2",
+      "original_biological_background_preserved": true,
+      "parent_curve_diagnostic_max_relative_to_peak_error": 0.0,
+      "active_CYP2D6_compartments": 11
+    }
+  ],
+  "model_audit_runs": 102,
+  "total_successful_solver_runs": 114,
+  "solver_run_breakdown": {
+    "snapshot_builds": 6,
+    "main_sensitivity_and_controls": 102,
+    "supplemental_baseline_diagnostics": 6
+  }
+}

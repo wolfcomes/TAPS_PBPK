@@ -1,0 +1,361 @@
+"drug","model","path","value","unit","fixed"
+"MCT","MCT_baseline-S2.pkml","MCT|Default Intestinal permeability (transcellular)",1.76764142072721e-09,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Intestinal permeability (paracellular)",0,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Intestinal permeability (transcellular)",1.76764142072721e-09,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Mucosa permeability scale factor (transcellular)",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Partition coefficient (blood cells/plasma)",0.360688429014502,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Fraction unbound (plasma)",0.53,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Calculated specific intestinal permeability (transcellular)",1.76764142072721e-09,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa value 0",6.5,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa value 1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa value 2",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Acid_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Acid_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Acid_2",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Acids_Count",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Base_0",6.5,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Base_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Base_2",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_Bases_Count",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_OneAcid_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_OneBase_0",6.5,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_F1",0.759746926647958,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_F2",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_F3",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K1",0.759746926647958,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K2",0.240253073352042,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K3",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K4",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K5",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K6",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K7",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_pH_WS_sol_K8",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_ThreeAcids_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_ThreeAcids_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_ThreeBases_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_ThreeBases_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_TwoAcids_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_TwoAcids_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_TwoBases_0",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|pKa_TwoBases_1",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Solubility_pKa_pH_Factor",0.75998717972131,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Lipophilicity",-0.65,"Log Units",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Fraction unbound (plasma, reference value)",0.53,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Solubility at reference pH",0.01,"kg/l",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Reference pH",7,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Permeability",5.43101126521219e-07,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Specific intestinal permeability (transcellular)",1.76764142072721e-09,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Partition coefficient (water/protein)",0.16746106190294,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Use pH- and pKa-dependent penalty factor for charged molecule fraction",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Parameter m for correlation of intestinal permeability (transcellular)",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","MCT|Parameter b for correlation of intestinal permeability (transcellular)",0,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P (interstitial->intracellular)",5.43101126521219e-07,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P (intracellular->interstitial)",5.43101126521219e-07,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P*SA interstitial -> intracellular",0.00413011904513091,"l/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P*SA intracellular -> interstitial",0.00413011904513091,"l/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P_cell_int_factor",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|P_int_cell_factor",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|Partition coefficient (intracellular/plasma)",0.420427805960519,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|Partition coefficient (intracellular/water)",1.26062071177512,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Periportal_int_Periportal_cell|MCT|Partition coefficient (interstitial/water)",0.774897530767087,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P (interstitial->intracellular)",5.43101126521219e-07,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P (intracellular->interstitial)",5.43101126521219e-07,"dm/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P*SA interstitial -> intracellular",0,"l/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P*SA intracellular -> interstitial",0,"l/min",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P_cell_int_factor",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|P_int_cell_factor",1,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|Partition coefficient (intracellular/plasma)",0.420427805960519,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|Partition coefficient (intracellular/water)",1.26062071177512,"",FALSE
+"MCT","MCT_baseline-S2.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|MCT|Partition coefficient (interstitial/water)",0.774897530767087,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Default Intestinal permeability (transcellular)",1.67529823260885e-06,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Intestinal permeability (paracellular)",0,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Intestinal permeability (transcellular)",0.04575114982,"dm/min",TRUE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Mucosa permeability scale factor (transcellular)",27309.2569009365,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Partition coefficient (blood cells/plasma)",0.498872473401075,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Fraction unbound (plasma)",0.233,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Calculated specific intestinal permeability (transcellular)",1.67529823260885e-06,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa value 0",2.4,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa value 1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa value 2",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Acid_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Acid_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Acid_2",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Acids_Count",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Base_0",2.4,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Base_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Base_2",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_Bases_Count",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_OneAcid_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_OneBase_0",2.4,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F1",0.999974881766627,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F2",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F3",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K1",0.999974881766627,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K2",2.51182333734778e-05,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K3",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K4",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K5",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K6",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K7",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K8",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_ThreeAcids_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_ThreeAcids_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_ThreeBases_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_ThreeBases_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_TwoAcids_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_TwoAcids_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_TwoBases_0",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|pKa_TwoBases_1",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Solubility_pKa_pH_Factor",0.99997490688486,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Lipophilicity",2.0799268917,"Log Units",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Fraction unbound (plasma, reference value)",0.233,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Solubility at reference pH",4e-05,"kg/l",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Reference pH",7,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Permeability",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Specific intestinal permeability (transcellular)",0.76146060669,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Partition coefficient (water/protein)",2.81554629060741,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Use pH- and pKa-dependent penalty factor for charged molecule fraction",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Partition coefficient (blood cells/plasma unbound)",2.14108357682865,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Parameter m for correlation of intestinal permeability (transcellular)",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Alprazolam|Parameter b for correlation of intestinal permeability (transcellular)",0,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P (interstitial->intracellular)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P (intracellular->interstitial)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P*SA interstitial -> intracellular",308.752167623999,"l/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P*SA intracellular -> interstitial",308.752167623999,"l/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P_cell_int_factor",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P_int_cell_factor",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (intracellular/plasma)",0.788257072927435,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (intracellular/water)",0.295588847854778,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (interstitial/water)",0.45863926179629,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P (interstitial->intracellular)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P (intracellular->interstitial)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P*SA interstitial -> intracellular",0,"l/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P*SA intracellular -> interstitial",0,"l/min",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P_cell_int_factor",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P_int_cell_factor",1,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (intracellular/plasma)",0.788257072927435,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (intracellular/water)",0.295588847854778,"",FALSE
+"Alprazolam","snapshot-Kroboth1988_IV_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (interstitial/water)",0.45863926179629,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Default Intestinal permeability (transcellular)",1.67529823260885e-06,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Intestinal permeability (paracellular)",0,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Intestinal permeability (transcellular)",0.76146060669,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Mucosa permeability scale factor (transcellular)",454522.419870412,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Partition coefficient (blood cells/plasma)",0.498872473401075,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Fraction unbound (plasma)",0.233,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Calculated specific intestinal permeability (transcellular)",1.67529823260885e-06,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa value 0",2.4,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa value 1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa value 2",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Acid_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Acid_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Acid_2",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Acids_Count",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Base_0",2.4,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Base_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Base_2",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_Bases_Count",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_OneAcid_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_OneBase_0",2.4,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F1",0.999974881766627,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F2",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_F3",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K1",0.999974881766627,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K2",2.51182333734778e-05,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K3",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K4",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K5",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K6",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K7",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_pH_WS_sol_K8",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_ThreeAcids_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_ThreeAcids_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_ThreeBases_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_ThreeBases_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_TwoAcids_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_TwoAcids_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_TwoBases_0",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|pKa_TwoBases_1",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Solubility_pKa_pH_Factor",0.99997490688486,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Lipophilicity",2.0799268917,"Log Units",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Fraction unbound (plasma, reference value)",0.233,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Solubility at reference pH",4e-05,"kg/l",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Reference pH",7,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Permeability",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Specific intestinal permeability (transcellular)",0.76146060669,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Partition coefficient (water/protein)",2.81554629060741,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Use pH- and pKa-dependent penalty factor for charged molecule fraction",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Partition coefficient (blood cells/plasma unbound)",2.14108357682865,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Parameter m for correlation of intestinal permeability (transcellular)",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Alprazolam|Parameter b for correlation of intestinal permeability (transcellular)",0,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P (interstitial->intracellular)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P (intracellular->interstitial)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P*SA interstitial -> intracellular",308.752167623999,"l/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P*SA intracellular -> interstitial",308.752167623999,"l/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P_cell_int_factor",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|P_int_cell_factor",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (intracellular/plasma)",0.788257072927435,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (intracellular/water)",0.295588847854778,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Alprazolam|Partition coefficient (interstitial/water)",0.45863926179629,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P (interstitial->intracellular)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P (intracellular->interstitial)",0.000622064885975907,"dm/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P*SA interstitial -> intracellular",0,"l/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P*SA intracellular -> interstitial",0,"l/min",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P_cell_int_factor",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|P_int_cell_factor",1,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (intracellular/plasma)",0.788257072927435,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (intracellular/water)",0.295588847854778,"",FALSE
+"Alprazolam","snapshot-PO_0.5mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Alprazolam|Partition coefficient (interstitial/water)",0.45863926179629,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Default Intestinal permeability (transcellular)",3.85882457793799e-09,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Intestinal permeability (paracellular)",0,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Intestinal permeability (transcellular)",2.7627e-07,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Mucosa permeability scale factor (transcellular)",71.5943403023591,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Partition coefficient (blood cells/plasma)",0.69843706133475,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Fraction unbound (plasma)",0.71,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Calculated specific intestinal permeability (transcellular)",3.85882457793799e-09,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa value 0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa value 1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa value 2",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Acid_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Acid_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Acid_2",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Acids_Count",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Base_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Base_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Base_2",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_Bases_Count",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_OneAcid_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_OneBase_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_F1",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_F2",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_F3",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K1",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K2",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K3",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K4",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K5",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K6",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K7",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_pH_WS_sol_K8",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_ThreeAcids_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_ThreeAcids_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_ThreeBases_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_ThreeBases_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_TwoAcids_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_TwoAcids_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_TwoBases_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|pKa_TwoBases_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Solubility_pKa_pH_Factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Lipophilicity",1.40017663,"Log Units",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Fraction unbound (plasma, reference value)",0.71,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Solubility at reference pH",6.48e-05,"kg/l",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Reference pH",7,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Permeability",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Specific intestinal permeability (transcellular)",2.7627e-07,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Partition coefficient (water/protein)",0.717134643124141,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Use pH- and pKa-dependent penalty factor for charged molecule fraction",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Partition coefficient (blood cells/plasma unbound)",0.983714170894015,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Parameter m for correlation of intestinal permeability (transcellular)",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Digoxin|Parameter b for correlation of intestinal permeability (transcellular)",0,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P (interstitial->intracellular)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P (intracellular->interstitial)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P*SA interstitial -> intracellular",5.01979984074853,"l/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P*SA intracellular -> interstitial",5.01979984074853,"l/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P_cell_int_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P_int_cell_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (intracellular/plasma)",0.871420493360556,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (intracellular/water)",0.814761651131187,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (interstitial/water)",0.898063698772739,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|kcat interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|kcat_app",71.163,"1/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|Km interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|Km_app",177,"µmol/l",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P (interstitial->intracellular)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P (intracellular->interstitial)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P*SA interstitial -> intracellular",0,"l/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P*SA intracellular -> interstitial",0,"l/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P_cell_int_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P_int_cell_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (intracellular/plasma)",0.871420493360556,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (intracellular/water)",0.814761651131187,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (interstitial/water)",0.898063698772739,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|kcat interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|kcat_app",71.163,"1/min",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|Km interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin iv, 0.5 mg, Bolus.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|Km_app",177,"µmol/l",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Default Intestinal permeability (transcellular)",3.85882457793799e-09,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Intestinal permeability (paracellular)",0,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Intestinal permeability (transcellular)",2.7627e-07,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Mucosa permeability scale factor (transcellular)",71.5943403023591,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Partition coefficient (blood cells/plasma)",0.69843706133475,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Fraction unbound (plasma)",0.71,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Calculated specific intestinal permeability (transcellular)",3.85882457793799e-09,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa value 0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa value 1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa value 2",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Acid_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Acid_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Acid_2",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Acids_Count",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Base_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Base_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Base_2",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_Bases_Count",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_OneAcid_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_OneBase_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_F1",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_F2",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_F3",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K1",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K2",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K3",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K4",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K5",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K6",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K7",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_pH_WS_sol_K8",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_ThreeAcids_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_ThreeAcids_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_ThreeBases_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_ThreeBases_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_TwoAcids_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_TwoAcids_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_TwoBases_0",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|pKa_TwoBases_1",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Solubility_pKa_pH_Factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Lipophilicity",1.40017663,"Log Units",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Fraction unbound (plasma, reference value)",0.71,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Solubility at reference pH",6.48e-05,"kg/l",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Reference pH",7,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Permeability",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Specific intestinal permeability (transcellular)",2.7627e-07,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Partition coefficient (water/protein)",0.717134643124141,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Use pH- and pKa-dependent penalty factor for charged molecule fraction",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Partition coefficient (blood cells/plasma unbound)",0.983714170894015,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Parameter m for correlation of intestinal permeability (transcellular)",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Digoxin|Parameter b for correlation of intestinal permeability (transcellular)",0,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P (interstitial->intracellular)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P (intracellular->interstitial)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P*SA interstitial -> intracellular",5.01979984074853,"l/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P*SA intracellular -> interstitial",5.01979984074853,"l/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P_cell_int_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P_int_cell_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (intracellular/plasma)",0.871420493360556,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (intracellular/water)",0.814761651131187,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|Partition coefficient (interstitial/water)",0.898063698772739,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|kcat interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|kcat_app",71.163,"1/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|Km interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Periportal_int_Periportal_cell|Digoxin|P-gp-Stephens (2001)|Km_app",177,"µmol/l",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P (interstitial->intracellular)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P (intracellular->interstitial)",1.0115e-05,"dm/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P*SA interstitial -> intracellular",0,"l/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P*SA intracellular -> interstitial",0,"l/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P_cell_int_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P_int_cell_factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (intracellular/plasma)",0.871420493360556,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (intracellular/water)",0.814761651131187,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|Partition coefficient (interstitial/water)",0.898063698772739,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|kcat interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|kcat_app",71.163,"1/min",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|Km interaction factor",1,"",FALSE
+"Digoxin","snapshot-Digoxin po, 0.5 mg.pkml","Neighborhoods|Pericentral_int_Pericentral_cell|Digoxin|P-gp-Stephens (2001)|Km_app",177,"µmol/l",FALSE

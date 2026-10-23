@@ -1,0 +1,12 @@
+﻿symbol_in_code,value,unit_interpreted_from_code,note,source
+BW,0.25,kg,"author rat, differs from 0.200kg project pilot",Suparmi2020 Supplement1 DOCX; exact code retained separately
+Ka,1.16,1/h,estimated from permeability and multiplied by2 to represent OCT1; not directly measured uptake rate,Suparmi2020 Supplement1 DOCX; exact code retained separately
+MPL,35,mg microsomal protein/g liver,scaling factor,Suparmi2020 Supplement1 DOCX; exact code retained separately
+MPSi,20.6,mg microsomal protein/g small intestine,code comment erroneously says mg/g liver; value used for intestine scaling,Suparmi2020 Supplement1 DOCX; exact code retained separately
+VmaxLM1c,0.06,nmol/min/mg microsomal protein,total MCT substrate depletion,Suparmi2020 Supplement1 DOCX; exact code retained separately
+KmLM1,9.22,umol/L,code precision; Table2 prints9.2,Suparmi2020 Supplement1 DOCX; exact code retained separately
+VmaxSiM2c,0.02,nmol/min/mg microsomal protein,total MCT substrate depletion,Suparmi2020 Supplement1 DOCX; exact code retained separately
+KmSiM2,13.39,umol/L,code precision; Table2 prints13.4,Suparmi2020 Supplement1 DOCX; exact code retained separately
+MW,325.36,g/mol,molecular weight,Suparmi2020 Supplement1 DOCX; exact code retained separately
+ODOSEmg1,0,mg/kg,default code scenario; not Lin2021 PO10,Suparmi2020 Supplement1 DOCX; exact code retained separately
+IVDOSEmg1,60,mg/kg,"default code scenario; Estep1991, not Lin2021 IV1",Suparmi2020 Supplement1 DOCX; exact code retained separately

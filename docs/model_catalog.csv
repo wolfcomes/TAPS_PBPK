@@ -1,0 +1,9 @@
+case,name,pkml,snapshot,reference
+DXM,DXM_PO_EM,DXM/models/baselines/DXM_PO_EM.pkml.gz,DXM/models/baselines/DXM_PO_EM.json,DXM/results/baselines/DXM_PO_EM/concentrations.csv
+DXM,DXM_IV_EM,DXM/models/baselines/DXM_IV_EM.pkml.gz,DXM/models/baselines/DXM_IV_EM.json,DXM/results/baselines/DXM_IV_EM/concentrations.csv
+DXM,DXM_PO_AS2,DXM/models/baselines/DXM_PO_AS2.pkml.gz,DXM/models/baselines/DXM_PO_AS2.json,DXM/results/baselines/DXM_PO_AS2/concentrations.csv
+DES,DES_PO_EM,DXM/comparators/desipramine/models/DES_PO_EM.pkml.gz,DXM/comparators/desipramine/models/DES_PO_EM.json,DXM/comparators/desipramine/results/DES_PO_EM/concentrations.csv
+DES,DES_IV_EM,DXM/comparators/desipramine/models/DES_IV_EM.pkml.gz,DXM/comparators/desipramine/models/DES_IV_EM.json,DXM/comparators/desipramine/results/DES_IV_EM/concentrations.csv
+DES,DES_PO_AS2,DXM/comparators/desipramine/models/DES_PO_AS2.pkml.gz,DXM/comparators/desipramine/models/DES_PO_AS2.json,DXM/comparators/desipramine/results/DES_PO_AS2/concentrations.csv
+MCT,MCT_PO,MCT/models/pilot/MCT_baseline-S1.pkml.gz,MCT/models/pilot/MCT_baseline.json,MCT/results/baseline_curves.csv
+MCT,MCT_IV,MCT/models/pilot/MCT_baseline-S2.pkml.gz,MCT/models/pilot/MCT_baseline.json,MCT/results/baseline_curves.csv

@@ -1,0 +1,9 @@
+﻿parameter,value,unit,source,notes
+fu_mean,0.53,fraction,Suparmi2020 Methods/Results: fraction unbound in rat serum,"rat serum RED, not liver microsomal binding"
+fu_SD,0.12,fraction,Suparmi2020 Methods/Results: fraction unbound in rat serum,published mean±SD
+MCT_assay_concentration,150,uM,Suparmi2020 Methods/Results: fraction unbound in rat serum,final concentration in serum
+DMSO,0.5,%v/v,Suparmi2020 Methods/Results: fraction unbound in rat serum,final DMSO
+equilibration_time,5,h,Suparmi2020 Methods/Results: fraction unbound in rat serum,RED dialysis
+temperature,37,degC,Suparmi2020 Methods/Results: fraction unbound in rat serum,RED
+replicates,3,count,Suparmi2020 Methods/Results: fraction unbound in rat serum,triplicate RED measurements
+fu_cytotoxicity_assumed,1,fraction,Suparmi2020 Methods/Results: fraction unbound in rat serum,assumed serum-free cytotoxicity medium; not a measured microsomal fu

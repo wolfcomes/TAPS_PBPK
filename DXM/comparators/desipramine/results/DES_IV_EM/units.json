@@ -1,0 +1,22 @@
+{
+  "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Organism|Liver|Periportal|Intracellular|Desipramine|Concentration": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Organism|Liver|Pericentral|Intracellular|Desipramine|Concentration": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Time": {
+    "unit": "min",
+    "dimension": "Time"
+  }
+}

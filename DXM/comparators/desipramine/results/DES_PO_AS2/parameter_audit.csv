@@ -1,0 +1,175 @@
+"path","value","unit","fixed","baseline_value"
+"Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km",0.732,"µmol/l",FALSE,0.732
+"Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat",9.86,"1/min",TRUE,9.86
+"Organism|VenousBlood|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|VenousBlood|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Bone|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Intracellular|CYP2D6|Relative expression",0.0077,"",FALSE,0.0077
+"Organism|Brain|Intracellular|CYP2D6|Concentration",0.0032183908045977,"µmol/l",FALSE,0.0032183908045977
+"Organism|Fat|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Fat|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Intracellular|CYP2D6|Relative expression",0.7687,"",FALSE,0.7687
+"Organism|Gonads|Intracellular|CYP2D6|Concentration",0.351004566210046,"µmol/l",FALSE,0.351004566210046
+"Organism|Heart|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Heart|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Intracellular|CYP2D6|Relative expression",0.0208,"",FALSE,0.0208
+"Organism|Kidney|Intracellular|CYP2D6|Concentration",0.0145964912280702,"µmol/l",FALSE,0.0145964912280702
+"Organism|Lumen|Stomach|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Stomach|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Duodenum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Duodenum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperJejunum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|UpperJejunum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerJejunum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|LowerJejunum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperIleum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|UpperIleum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerIleum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|LowerIleum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Caecum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Caecum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonAscendens|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonAscendens|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonTransversum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonTransversum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonDescendens|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonDescendens|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonSigmoid|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonSigmoid|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Rectum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Rectum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Stomach|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Intracellular|CYP2D6|Concentration",0.0412244897959184,"µmol/l",FALSE,0.0412244897959184
+"Organism|SmallIntestine|Mucosa|Duodenum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Concentration",0.0808,"µmol/l",FALSE,0.0808
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Concentration",0.0699230769230769,"µmol/l",FALSE,0.0699230769230769
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Concentration",0.0661090909090909,"µmol/l",FALSE,0.0661090909090909
+"Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Concentration",0.0649285714285714,"µmol/l",FALSE,0.0649285714285714
+"Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",0.0909,"",FALSE,0.0909
+"Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Concentration",0.0661090909090909,"µmol/l",FALSE,0.0661090909090909
+"Organism|LargeIntestine|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",1,"",FALSE,1
+"Organism|Liver|Periportal|Intracellular|CYP2D6|Concentration",0.599700149925038,"µmol/l",FALSE,0.599700149925038
+"Organism|Liver|Pericentral|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",1,"",FALSE,1
+"Organism|Liver|Pericentral|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Intracellular|CYP2D6|Relative expression",0.0223,"",FALSE,0.0223
+"Organism|Lung|Intracellular|CYP2D6|Concentration",0.038448275862069,"µmol/l",FALSE,0.038448275862069
+"Organism|Muscle|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Muscle|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Pancreas|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Skin|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Spleen|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"CYP2D6|Reference concentration",0.4,"µmol/l",FALSE,0.4
+"CYP2D6|Molecular weight",NA,"kg/µmol",FALSE,NA
+"2-Hydroxydesipramine|Molecular weight",2.8238e-07,"kg/µmol",FALSE,2.8238e-07
+"Desipramine|Molecular weight",2.66388e-07,"kg/µmol",FALSE,2.66388e-07
+"Undefined Liver|Molecular weight",NA,"kg/µmol",FALSE,NA
+"2-Hydroxydesipramine-Undefined Liver Metabolite|Molecular weight",NA,"kg/µmol",FALSE,NA
+"Desipramine-Undefined Liver Metabolite|Molecular weight",NA,"kg/µmol",FALSE,NA

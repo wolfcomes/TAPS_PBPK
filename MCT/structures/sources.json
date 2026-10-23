@@ -1,0 +1,104 @@
+{
+  "identity_audit_date": "2026-10-15",
+  "audit_note": "Historical identity checks are retained; not a newly prepared catalytic system. File paths updated 2026-10-23.",
+  "files": [
+    {
+      "name": "monocrotaline_N_oxide",
+      "file": "MCT/structures/branch_reference_MNO/monocrotaline_N_oxide_CID21586627_3D.sdf",
+      "pubchem_cid": "21586627",
+      "formula": "C16H23NO7",
+      "formal_charge": 0,
+      "atoms_including_explicit_hydrogens": 47,
+      "conformers": 1,
+      "is_3d": true,
+      "chiral_centers": [
+        [
+          7,
+          "S"
+        ],
+        [
+          8,
+          "R"
+        ],
+        [
+          9,
+          "R"
+        ],
+        [
+          16,
+          "R"
+        ],
+        [
+          17,
+          "R"
+        ],
+        [
+          18,
+          "R"
+        ]
+      ],
+      "note": "PubChem 3D conformer; MCT N-oxide metabolite reference",
+      "sha256": "d43a8d561c53e8842e5806493ed4b1c18bc1d18402ce06bb4cfcd13bdf031613",
+      "identity_note": "CID has unspecified N stereochemistry; the downloaded 3D conformer specifies one N configuration. Carbon stereochemistry and connectivity match after removing coordinates and clearing only N chirality for comparison. Original file retained unchanged. This is a product reference, not an assigned CYP reaction product.",
+      "pubchem_title": "Monocrotaline N-Oxide",
+      "reference_inchikey": "LHVAZUAALQTANZ-ANYXPJNNSA-N",
+      "sdf_3d_inchikey": "LHVAZUAALQTANZ-BUASCMBYSA-N",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/21586627/record/SDF?record_type=3d"
+    },
+    {
+      "name": "monocrotaline",
+      "file": "MCT/structures/ligands/monocrotaline_CID9415_3D.sdf",
+      "pubchem_cid": "9415",
+      "formula": "C16H23NO6",
+      "formal_charge": 0,
+      "atoms_including_explicit_hydrogens": 46,
+      "conformers": 1,
+      "is_3d": true,
+      "chiral_centers": [
+        [
+          7,
+          "R"
+        ],
+        [
+          8,
+          "R"
+        ],
+        [
+          14,
+          "R"
+        ],
+        [
+          15,
+          "R"
+        ],
+        [
+          16,
+          "R"
+        ]
+      ],
+      "note": "PubChem 3D conformer; parent PA in current rat MCT PBPK pilot",
+      "sha256": "fbb28d6f623465a7766c45c2eca02b333119d8ba58f30272a83cb2c6d9e4525c",
+      "identity_note": "Full InChIKey derived from reloaded 3D SDF matches PubChem identity record.",
+      "pubchem_title": "Monocrotaline",
+      "reference_inchikey": "QVCMHGGNRFRMAD-XFGHUUIASA-N",
+      "sdf_3d_inchikey": "QVCMHGGNRFRMAD-XFGHUUIASA-N",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9415/record/SDF?record_type=3d"
+    },
+    {
+      "file": "MCT/structures/protein/CYP3A1_rat_AlphaFoldDB_v6_P04800.pdb",
+      "chains": [
+        "A"
+      ],
+      "atom_records": 4076,
+      "residues_including_heterogens": 504,
+      "heme_atom_records": 0,
+      "heme_iron_records": 0,
+      "note": "rat CYP3A1 AlphaFold DB v6 monomer prediction; no heme or membrane",
+      "sha256": "ff5c2a653a1ebcbfafac8645dfad45925b9889058aefe44707f52404d12a7de4",
+      "source_url": "https://alphafold.ebi.ac.uk/files/AF-P04800-F1-model_v6.pdb",
+      "retrieved_url": "https://alphafold.ebi.ac.uk/files/AF-P04800-F1-model_v6.pdb?mirror=public",
+      "sequence_matches_source": true,
+      "selection_note": "User selected rat CYP3A1 as the sole current PA protein target. This is a scope decision, not proof that aggregate microsomal Km/Vmax are CYP3A1-specific. PA ligand/reaction remains to be matched; clivorine evidence also involves CYP3A2."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+outputs/
+DXM/results/new_runs/
+MCT/results/new_runs/
+
+# Historical payloads stay local; publish provenance and verification.
+legacy/*
+!legacy/README.md
+!legacy/2026-10-23_project_reset/
+legacy/2026-10-23_project_reset/*
+!legacy/2026-10-23_project_reset/original_files.json
+!legacy/2026-10-23_project_reset/active_file_origins.json
+!legacy/2026-10-23_project_reset/migration_notes.md
+!legacy/2026-10-23_project_reset/verification.json

@@ -1,0 +1,1013 @@
+{
+  "method": "Resolve formula GUIDs/StringMap; compare numerical Model.Root node attributes and formula/RHS content; ignore displayUnit and persistable output flags",
+  "runs": [
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "d7fac7bc7095dd93ad0afe0453da31bffcc287377c91eac67b07eb5fb1ca28f8"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "cb4c7724e7cca448d297813ae060253c41b01fbe9ce8fddedf4c7613818ea5c6"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "4ccde4f5264564da89af4997e144bb69ab2d115b58956e594cf33027b7995094"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "025aede02c70442862533a156fb9267d4a06df34d355a924b0f22a3ff972add7"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "5cbb27c9708ff8a80e7d7c2cdd6a66fc62fee7ab62cd2727d6b0814e2033e6a3"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "79c6aa95207fe7a6a8f77f8945c8bcaf0efab3d30dcf443a5d5d19c4e3ffdd52"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "a3078261ec047eed2b09eee1bfe4fb4030119b6960d9c9203244f818abdbff6c"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "40ac800d1ca839a36211acac4ad7d9e02ec185943b22d7f58202f58642e79175"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "92ca34c833751bee951eb398b096f53ae4703e5ab08a8620fc40cc0bea798fd4"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "5246d0ae6f242bbc98d1a6b19f800bce08b0ce511df3043fa22b01cd28d67a0c"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "672e723daa46673124cdf44ca5ad734b679cac39e212401c69402b2d194e7b90"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "4dbfe2191bcdf33bb347fde86b5d905a2b3724b64e63c1a3210d3828ad46a331"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "1258fb67d9626fe0ce8b6addc0ebb72473e0c3f892beca88ffc7c223621f2100"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "bf602f7fc29e9a32db70060c6e9b65c2c0d18605e87926f68aefa00cf4493822"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "34cbef444666e72a0fc537aed6ffcbdd82e6c1e21bfabb196049686dcd9ed688"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "5ac00e580a4e919e3e7a2313bf2c59cf2a1741e788318aba80b2f37f43599a84"
+    },
+    {
+      "case": "DXM_PO_EM",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 18606,
+      "parameters_checked": 13049,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "c1fda9646711c1367ccb4dc18a3ea36bf1a786b3a7a2485a5892f9905314b637"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "bda4e85257e269c27ab1c522d3c5576714a870d942372ef6982aee859017da8f"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "892d817aead545c31139399b70b6745d0de7554c91a934ba21a5f461d6aa7cc6"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "1b4e89c076652408ba27cf3b7f1037173dfe6be52b4378fab8d4dd10c4cee557"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "1ae6405f6b32e6fb91eee72d7aec0a748d3da5be5bf006e22416927ccbc38b4b"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "32eb97953baef8b3c386a884b5448125ae0569599adaf039bc555fc62b24461e"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "c31ae0000da4fc4535b718da206287414d4d6f821d4a7b7fb6eaedcb3fe14828"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "96df72ea132b9e9186f79a26e87e89d694788c3de13f1d609d8c3c767e395c23"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "07c5777060d0c29cd86b74201c1c02e9c354fb788c66cd59132151ce39f74c7e"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "1496ce1922810feade39af909179ba3492f717542f934369e4a031fe7a16c737"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "e681c67092e813828d1b65455a794f58e5594cbce3762b329b4d214d085e1ab2"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "bd71cbc83431c17893e791296bc97386ed73d271b661430fddda4b07fea06bc1"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "c476fb25b6c079be37e42dc0ad745f68d8999960a5ea32426b131f1bb8f31fcb"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "835dc852110313caab552d4ccb6ba18061e9f5c05edab4909be1b35b2d70d66f"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "4c43b86985860a2ff2a51099acd36dc1c7535939e56f34ba185f3629178b2907"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "a55e37e25c26c36d2b66c02d76e665f6243a52c8607bf07c86e73160b43f412f"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-Lutz 2012 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "f4e46a35574fd28cfd6ad6dbcfb96c4dd5fee6a896446f6ff9c1c63eb45a917a"
+    },
+    {
+      "case": "DXM_IV_EM",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 12528,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "7ba2d0c50cc99e96c3566f5a3feddebadfaaa0a398e03bdc473fb1b1f263953e"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "03a40218f79671e81a7b7729280c794ce92bb230b6015259dd4b23b00bccd43e"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "35f644882dd418da8f8fb87dcdcf0ef89dae7360a8d2f735c3440a68317cabb9"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "96051c4cacee5bf432daff6250d151a6967da82a4a13bbfe8775a1eac2b0c7ba"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "401248cff93bd868a498780f7c7c7e879bbbd1f754227fb7b681df9f8b42af40"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "0309e124976596d75e6a2bd142ba5746da0a99bb1b6686c09fa3e5eaf096e3ed"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "a2ddf2f1af253645201614210c6cf2e5f53f9696b53a14e26a2952fd423a5d81"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km"
+      ],
+      "model_uncompressed_sha256": "d37f75c6d0fe34be23bbb381e3ea679812e7c7515241b1ae2f8f813c833e0273"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "b69d9ce71ca067cd0aad99d5241b21a0ee294017a8de5a7dc9bfb47b9b7ad0fa"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "c379c8821521edd25599e1ec6e3f8e33b977227a552cf52a7f20a5381f7c044f"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "ce02e0b260ceec2ec38814c32a3e801269efaba55845d4ed393b9bac005cfd01"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "456ea90b2dd7d595503d0be4b0df6eb63c28aa8b3993ac13bdbbd2b6eb5ec049"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "9d2e0ca87fbe420ad38aee0172b8b0ee66c06056d0a2604b327b02a81e7f7c2f"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "885a762a6813488f2e2a0f62f2a76188a58a62e45b494881a669b3946a587419"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "32f8ce49b2ae91f81fa16756e967631dcd018a98ea223f4c11beb026afb9b986"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km",
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "4f0f8e095401be9fe3b29bdc829c4f1d8eaa4f0c2405c774f7e3cda3d07f15ef"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [
+        "Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat"
+      ],
+      "model_uncompressed_sha256": "45f42cb59d5c58933754a033890ba44533b29f457eabc5b3cf6b54d6e1520438"
+    },
+    {
+      "case": "DXM_PO_AS2",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 12529,
+      "parameters_checked": 8767,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "4199bc2c4e9b9f79a5646df39f7c2594d8355e2fa78d027cb8240e6130cf2fab"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "78f6bc29c49f32118e531ebd0e10b9e1b9bd36a1ffe9797c28b7be76bc1d87df"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "9a94149726e6b372d10aada08797fd5e91a9b7bccb9a5c46f90153082ed1d7c8"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "c0b09a7a4ab381e05bfe33b5aed0bc1ed4d2f97882828bc435ba3a70df534b99"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "28c0227bcfe3d47d5eeee20c11de85974b0ca3eba10ecd51d495fcd4122b75db"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "5b3cf81775416c2859e757361e7cb7da75d3317281da3e64270ad7e5f4080932"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "ba1e854a6293aa86ebb03e962e43ebbb9c1fc4f62ca2166a6276bacf34985329"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "e9e74b3257e72eddaa1546ceddacda657fea12052126f2d6e68561d63543fdbe"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "066e0ebba891abe2660a58d30dc280ba2e68ef11795211415c4050626fc178c3"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "dd96401e866150918fe5cc830c663f65a57c9beaaa3555efdea74067ad73fd67"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "8a11513bcb3071783ac35c6b2925711a507911eaccbf197e3f91747b3167a27c"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "9683735e7b04903f7d2255e76809f4684ba0081b293f1161f30e63fd90c6e0ed"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "237c4cea6f3347bb9695c5c4ffcfe7fa09b87fd00187a3372c1f97e557ee3116"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "f298c0573f7b2bb3d81d421718d878e13e374daebf8a2ff7e9a8f450b5eedefc"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "a843488927868b1bf6d04e685d5a4fa3845a32327740a06126f40002f5ac7725"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "fe7abfb32092f2bc335e13fcd84ea9721279358168092a167949efc384a3b2d5"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "dbb6feb894301b50f9c6533ad9acb02c361e6ba04369184e5702ae7363b685fc"
+    },
+    {
+      "case": "DES_PO_EM",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "87976b626a213e54b0b1c344a789a932133395024975f9e264962bbf71ccb673"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "cd7d8e6211c6b7d470eb1994c11bb09f40c7883be766c744da07f05d2e7c1acf"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "8ab3eebdf2cffd6366ac71920e32837097f65306017e5687711be1a613473dc1"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "814cc622adf8c68994f9b903cbb77829633e5d1ad63b3972a9431ca8d502b395"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "7f06cdd117850efc765a7f696ab51e2f53e39e343546bcaba02477e416e5263b"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "d011928b8b3fa019991e316b7b23491c97843eb5542298e846a90fe8e7c259c1"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "57fa8dcd15c97d9f73ffce1146dc2b4b905ae416486391f00d1ee4ace13a416c"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "00bf19738925c9ba9f1a6fa0c5f53ee49e6179fcb50b1e4e26b8efc5a8fa4dcb"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "e0d94d142fd6ebe5a8660ab34d686e8c53dd9b54ba721819ea3c4c90d18f6c3f"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "ee2960cf6b17e6636618d638271cbfc379491eb3976409b85b9e4e917b334f38"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "a582badbe3eb6f6897aaae9f12d5c0c830419e03cb1859244eb63a2f698b177f"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "4f58cac7a51d9d35ea010eb41ae448302dcda5bf2d175d592a834fc8a1b377b8"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "74539b1fefb179c8d9c360ed54a95bce43c48e06437b1d814dba3240f3c6aa90"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "941243312a459d52028948b5f4b1f161c080219585f26b9054a54b42cd05f7c7"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "762ecabfbffe76bdb211a4394a04cba0910557f225e25d49cd3a018a1665ebf8"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "538c1005d40d38f484889c2ddd688213c7258498ce181c7a64ab8c1bb553e69c"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "0519de88700d0d86deaaa1c5faf56c6624d70e4e48ce9135e84cdd30794db492"
+    },
+    {
+      "case": "DES_IV_EM",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 9256,
+      "parameters_checked": 6535,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "69b3f1321d7d6f4d5bccc9292aa1b7e2cc906eeb218c7ed9ec8a18647d09d67b"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "baseline",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "09772641e882d89f659199f22c8ad39cf6f69e52bd1deaa3b88c45eae2d05835"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_0p25",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "989fca61b46fe9743322acc85bbd07d428efd0681cb60de5e6397c6e69b8178b"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "6ef8df1435e2e56478a6eee9fc75688adee4a0b4884ff8fe5ff0aa91a7cdf911"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_0p9",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "7682fe2c6ade2c5b34db5a7bb70600240c73ce3eba619856a23759c41b4fa89f"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_1p1",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "59634c6039516c1a86d0ea430cf9dd762e6ede7cf2f640616bdda5dbd8905f1f"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "149972278b1116aaa3eabd0c72784aefce4a87a6c8df8730a35d7c7efc352a30"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Km_4",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km"
+      ],
+      "model_uncompressed_sha256": "95836eae0c834a2605cfefd1c74ddff8b4625ae6a28ca669db731406970ed9bb"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_0p25",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "2f262b1ae7fe0895508d8eefa4f4c7dc5ec6cd4fe9d0b04467169e9c3088481b"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "b959cc6c09d5f1287743a268954dc3e050c026ac40f2edbb0c360ef5e79dcb10"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_0p9",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "8eb959dfe076d99e2e5ed513647cf87988f02846b3f45de7814fd69e95ae31f5"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_1p1",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "e4b6d2a8042adf4ebe2c7bd4fae92946259e555760928974f0e7b869fa55b411"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "c8e602651f8325a487bf047376f0f4cdec6ad32cda98453eb1747d082af35659"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "Vmax_4",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "5be39a6b30656d2d934be91dbb8ddfa0b9bf52212519a132ef77e49781054e97"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "paired_0p5",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "b86cdcfe012b8a8441a3a2241aa5c740573b00a5c90fbd60b78a0021c43f97d6"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "paired_2",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|Km",
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "e40f20a98a53d18e8e9056ec27208452e2e0e50c975dd8904b75a70ecc4f309c"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "CYP2D6_off",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [
+        "Desipramine-CYP2D6-AS=2 (2-Hydroxydesipramine)|kcat"
+      ],
+      "model_uncompressed_sha256": "848ed65db44303530ba7a6eea7e8d48d3aa68cb7902f5697b5fc76d553cbe01e"
+    },
+    {
+      "case": "DES_PO_AS2",
+      "scenario": "baseline_repeat",
+      "numerical_nodes_checked": 9015,
+      "parameters_checked": 6404,
+      "changed_parameter_paths": [],
+      "model_uncompressed_sha256": "8e8d615120e32fda36ca83a8a2b6768d60f4e704ecd109c531af3454f399f9f9"
+    }
+  ]
+}

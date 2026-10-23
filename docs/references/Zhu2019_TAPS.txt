@@ -1,0 +1,940 @@
+
+--- PAGE 1 ---
+ViewOnline
+ExportCitation
+RESEARCH ARTICLE |  MARCH 25 2019
+TAPS: A traveling-salesman based automated path
+searching method for functional conformational changes of
+biological macromolecules
+Special Collection: Markov Models of Molecular Kinetics
+Lizhe Zhu 
+  ; Fu Kit Sheong 
+  ; Siqin Cao 
+  ; Song Liu; Ilona C. Unarta; Xuhui Huang 
+J. Chem. Phys. 150, 124105 (2019)
+https://doi.org/10.1063/1.5082633
+Articles You May Be Interested In
+A fast tomographic method for searching the minimum free energy path
+J. Chem. Phys. (October 2014)
+Efficiently finding the minimum free energy path from steepest descent path
+J. Chem. Phys. (April 2013)
+Decomposition of energy and free energy changes by following the flow of work along reaction path
+J. Chem. Phys. (October 2009)
+ 08 September 2026 07:55:52
+
+
+--- PAGE 2 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+TAPS: A traveling-salesman based automated
+path searching method for functional
+conformational changes of biological
+macromolecules
+Cite as: J. Chem. Phys. 150, 124105 (2019 ); doi: 10.1063/1.5082633
+Submitted: 22 November 2018 • Accepted: 26 February 2019 •
+Published Online: 25 March 2019
+Lizhe Zhu, 1,2
+ Fu Kit Sheong, 1
+ Siqin Cao, 1
+ Song Liu, 1 Ilona C. Unarta, 1 and Xuhui Huang 1,3,4,a)
+AFFILIATIONS
+1 Department of Chemistry, State Key Laboratory of Molecular Neuroscience, The Hong Kong University of Science
+and Technology, Clear Water Bay, Kowloon, Hong Kong
+2Warshel Institute for Computational Biology, School of Life and Health Sciences,
+The Chinese University of Hong Kong (Shenzhen), Shenzhen, Guangdong 518172, China
+3Bioengineering Program, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong
+4HKUST-Shenzhen Research Institute, Hi-Tech Park, Nanshan, Shenzhen 518057, China
+Note: This article is part of the Special Topic “Markov Models of Molecular Kinetics” in J. Chem. Phys.
+a)Author to whom correspondence should be addressed: xuhuihuang@ust.hk
+ABSTRACT
+Locating the minimum free energy paths (MFEPs) between two conformational states is among the most important tasks of biomolecular
+simulations. For example, knowledge of the MFEP is critical for focusing the effort of unbiased simulations that are used for the construc-
+tion of Markov state models to the biologically relevant regions of the system. Typically, existing path searching methods perform local
+sampling around the path nodes in a pre-selected collective variable (CV) space to allow a gradual downhill evolution of the path toward
+the MFEP. Despite the wide application of such a strategy, the gradual path evolution and the non-trivial a priori choice of CVs are also
+limiting its overall efﬁciency and automation. Here we demonstrate that non-local perpendicular sampling can be pursued to accelerate the
+search, provided that all nodes are reordered thereafter via a traveling-salesman scheme. Moreover, path-CVs can be computed on-the-ﬂy
+and used as a coordinate system, minimizing the necessary prior knowledge about the system. Our traveling-salesman based automated path
+searching method achieves a 5-8 times speedup over the string method with swarms-of-trajectories for two peptide systems in vacuum and
+solution, making it a promising method for obtaining initial pathways when investigating functional conformational changes between a pair of
+structures.
+Published under license by AIP Publishing. https://doi.org/10.1063/1.5082633
+INTRODUCTION
+Characterizing the most probable transitions among the stable
+conformational states is a crucial step toward the understanding of
+the dynamics and function of biomolecules. This is, however, often
+impractical for conventional Molecular Dynamics (MD) simulations
+to achieve because the transitions could involve numerous coordi-
+nates that are unknown a priori and high barriers that prohibit the
+transition events to occur within simulations of limited length.1
+Among the methods devised to tackle these challenges, path
+sampling uses a large scale unbiased sampling to obtain an ensemble
+of transition paths. 2 For example, the most established path sam-
+pling method—transition path sampling 3—and its derivatives 4–8
+aim to collect a “complete” ensemble of reactive pathways deﬁned
+directly in the phase space and compute the reaction rate. The
+degrees of freedom most relevant to the transitions are extracted
+from the path ensemble through the transition path theory9 or other
+types of post-analysis.10,11
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-1
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 3 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+The probable transition paths can also be derived from a
+kinetic network model, e.g., Markov State Model (MSM), 12–20 of
+the system. 9 Typically, an MSM is constructed from a large set of
+unbiased MD trajectories initiated from different locations of the
+phase space. The continuous dynamics covered by these trajecto-
+ries are then modeled as Markovian transitions among metastable
+conformational states at discrete time intervals. Such a feature
+allows for highly parallelized sampling and a systematic descrip-
+tion of the kinetics of the system and has made MSM a popu-
+lar approach for studying protein folding 21–26 and more recently
+functional conformational changes of biomolecular machines. 27–40
+In practice, the extensive sampling for MSM construction has to
+be initiated from conformations obtained by various enhanced
+sampling schemes. For protein folding, methods such as par-
+allel tempering that enhance sampling in a global manner are
+applicable.41,42
+For functional conformational changes, however, the motions
+to be sampled are often more localized transitions, e.g., protein loop
+closure or domain translocation. In these cases, globally enhancing
+sampling by raising the temperature may lead to unwanted results
+like loss of protein secondary structures. A more feasible strategy is
+to generate initial path(s) by methods such as linear interpolation,43
+the Climber algorithm,44 targeted MD (tMD),45 or other enhanced
+sampling techniques42,46–48 and then optimize the guess path(s) via
+path searching methods.49
+Unlike path sampling methods, path searching methods, 50,51
+represented by the string method,43,52–57 aim to use biased sampling
+to locate the minimum free energy path (MFEP) closest to a guess
+path. Although only allowing path optimization in a local manner,
+the path searching methods are suitable for quickly identifying the
+transition mechanism. The MFEP(s) found also ensure the statistical
+signiﬁcance and biological relevance of the subsequent unbiased MD
+simulations and the construction of MSMs.58–61
+Typically, the procedure of path searching methods starts by
+specifying a collective variable (CV) space on which the paths are
+deﬁned. Sampling initiated from each path node is then performed
+for the search. In the string method, the sampling is restrained in
+the local volume around each path node in the CV space. 62 A new
+path is then obtained by updating the nodes according to the direc-
+tion of the mean force 53,54 or the average drift 43 and subsequent
+path reparameterization. 62 An iterative procedure as such enables
+a gradual downhill evolution of the path, which ﬁnally falls into
+the MFEP closest to the initial guess path. This approach has found
+great success in characterizing many challenging systems, 58–60,63,64
+including huge biomolecular machines.65,66
+In practice, however, the overall efﬁciency and the degree of
+automation of this approach remain restricted by the local sampling
+adopted and the difﬁculty in choosing the static CV space with-
+out sufﬁcient prior knowledge of the system. The local sampling
+was originally introduced to prevent the path nodes from dropping
+quickly to the known free energy minima, without moving in the
+directions perpendicular to the current path to search for the actual
+transition state (TS) regions. 43,53,54 But it also makes the downhill
+evolution very gradual, limiting the speed of the search. In addition,
+the a priori choice of the CVs is highly non-trivial, especially for high
+dimensional biomolecular systems. In fact, even when initiated from
+the same guess path, the string method could ﬁnd distinct MFEPs
+in different CV spaces, 54 necessitating post-validation of the found
+paths. This sometimes could lead to trial runs of many combina-
+tions of CVs, 60,65 potentially diminishing the overall efﬁciency of
+the method.
+Here we present a new method, Traveling-salesman based
+Automated Path Searching (TAPS), to alleviate these issues. We
+argue that non-local perpendicular sampling can be pursued to
+accelerate the search, provided that the path nodes are reordered
+thereafter via a traveling-salesman scheme.67 Moreover, rather than
+a point in the reduced CV space, each path node in TAPS is
+a high dimensional image of the biomolecular system. By deﬁn-
+ing a distance metric, we compute the path collective variables
+(PCVs)68 on these high dimensional nodes on-the-ﬂy and use PCV
+as a coordinate system in each iteration. Therefore, TAPS naturally
+avoids the challenging step of choosing CVs and thus minimizes
+the prior knowledge of the system required for the search. Even
+when CVs are correctly chosen, for peptide systems (in vacuum
+or explicit solvent), TAPS achieves a 5-8 times speedup over the
+string method with swarms-of-trajectories (SMwSTs), making it a
+promising automated path searching method for large biomolecular
+systems.
+METHODS
+Minimum free energy path
+We ﬁrst brieﬂy introduce the theoretical background of MFEP.
+For a detailed review of the topic, we refer readers to Ref. 54. Con-
+sider a system in the NVT ensemble, for which the probability of
+a conﬁguration x is described by the Boltzmann-Gibbs probability
+density function
+ρ(x)= e−βV(x)/slash.leftZ, (1)
+where Z = ∫ e−βV(x)dx is the partition function, β is the inverse
+temperature, and V(x) is the potential energy function of the system.
+Suppose we have deﬁned n CVs θ(x) = (θ1(x), θ2(x), . . .,θn(x)))
+to characterize the system. The corresponding potential of mean
+force (or free energy) associated with θ(x) reads
+F(ζ)= −kBT ln/parenleft.alt3Z−1⋅/integral.dispe−βV(x)δ(θ1(x) − ζ1) ⋅ ⋅ ⋅ δ(θn(x) − ζn)dx/parenright.alt3.
+(2)
+We then deﬁne a path α containing N nodes between two free energy
+minima in the CV space θ(x). In analogy to the “intrinsic reaction
+coordinate” scheme commonly adopted in quantum chemistry,69,70
+here one can apply the least action principle to obtain the geodesic
+path, i.e., the MFEP, between the two minima. The path α will be a
+MFEP provided that
+dζi(α)
+dα parrallel to
+N
+/summation.disp
+j=1
+Mij(ζ(α)) ∂F(ζ(α))
+∂ζj
+, (3)
+where
+Mij(ζ)= Z−1e−βF(ζ)
+/integral.disp
+n
+/summation.disp
+k=1
+∂θi(x)
+∂xk
+∂θj(x)
+∂xk
+e−βV(x) ⋅
+× δ(θ1(x) − ζ1) ⋅ ⋅ ⋅ δ(θn(x) − ζn)dx. (4)
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-2
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 4 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+Equations (3) and (4) also mean that the system sitting in its MFEP
+must tend not to move along all directions perpendicular to the
+MFEP, i.e.,
+0=
+N
+/summation.disp
+j,k=1
+Pij(α)Mjk(ζ(α)) ∂F(ζ(α))
+∂ζk
+, (5)
+where Pij(α) is the projector on the plane perpendicular to the path
+at ζ(α),
+Pij(α)= δij − ∂ζi/slash.left∂α
+/divides.alt0∂ζi/slash.left∂α/divides.alt0
+∂ζj/slash.left∂α
+/divides.alt0∂ζj/slash.left∂α/divides.alt0. (6)
+As the deﬁnition of MFEP in Eqs. (2) and (3) relies on the CVs
+θ(x), for all existing path searching methods,θ(x) has to be explicitly
+speciﬁed a priori and kept as a static coordinate system through-
+out the search. Yet it remains highly challenging to select CVs prior
+to the actual search, particularly for ultra-large biomolecular sys-
+tems. In the next section, we demonstrate that such an explicit
+CV deﬁnition can be replaced by introducing a single distance
+metric.
+Using path as the coordinate system via path
+collective variable
+Here we avoid deﬁning CVs explicitly by specifying a distance
+metric di,j that discriminates any two pair of dimensional system
+images i and j. Typically, di,j is computed via the root mean square
+distance (RMSD) between i and j, which requires specifying one set
+of atoms to align the system image and a second set of atoms to com-
+pute the RMSD. Deﬁning such distance metric allows for an implicit
+decomposition of the original high dimensional conﬁguration space
+{x}.
+With di,j, one can compute the two-component path-collective-
+variable (PCV),68
+s= ∑N
+i=1 i e−λd2
+x,i
+∑N
+i=1 e−λd2
+x,i
+, z= − 1
+λ ln/parenleft.alt2/summation.disp
+N
+i=0 e−λd2
+x,i/parenright.alt2, (7)
+where dx,i is the distance between any conformation x and the ith
+node of the path α containing N nodes. λ is a constant, typically
+computed by λ = 2.3(N − 1)/slash.left∑N−1
+i=1 d2
+i,i+1, where di,i+1 is the dis-
+tance between ith node and its neighbour node i + 1. 68 Originally
+invented for performing metadynamics (MetaD) 71 around a path
+composed of high dimensional structures, the PCV has been widely
+applied to protein conformational changes 72–78 and protein-ligand
+recognition.79–88
+Using the PCV, one can project any high dimensional con-
+formation x onto a high dimensional path α. Here s is a unit-less
+quantity, meaning the location of such projection on α. z is in the
+unit of distance square, meaning the average squared distance of this
+conformation from α. Thus, PCV offers a natural solution to use any
+high dimensional pathα as a dynamic coordinate system that evolves
+during searching iterations, instead of a static CV space deﬁned
+a priori.
+Non-local perpendicular sampling
+Equations (5) and (6) have indicated that paths other than the
+MFEP are unstable in directions orthogonal to themselves. This fact
+has inspired a few methods to perform sampling iteratively within
+the perpendicular plane Pij(α) of a path to accelerate the search
+for its closest MFEP, 50,51 yet still with pre-selected static CV space
+θ(x).
+Here we ﬁrst derive a general theory that describes the evolu-
+tion of a path via perpendicular sampling to the MFEP and then
+discuss the practical implementation of the perpendicular sampling
+using the PCV.
+As shown in Fig. 1, in the normal spaces B that are perpendic-
+ular to the paths, the kinetic equation of the system will become the
+subspace Liouville’s equation,
+∂
+∂t ˆρ/parenleft.alt1qB, pB, t/parenright.alt1= −/bracketleft.alt4∂ ˆHR
+∂pB
+∂
+∂qB − ∂ ˆHR
+∂qB
+∂
+∂pB/bracketright.alt4ˆρ/parenleft.alt1qB, pB, t/parenright.alt1, (8)
+where the reduced dimensional space { qB, pB} is perpendicular to
+the path and has the dimensionality ofn − 1 [n is the number of CVs
+deﬁned in Eq. (2)]. A thermodynamic average has been implicitly
+performed over the dimensionalities that are perpendicular to the
+CV space; thus, the potential energy in the reduced space ˆVR is the
+potential of mean force F deﬁned in Eq. (2).
+In Eq. (8), both ˆρ and ˆHR are scalars and DqB ˆρ = ∂qB ˆρ, DpB ˆρ
+= ∂pB ˆρ, DqB ˆHR = ∂qB ˆHR, DpB ˆHR = ∂pB ˆHR. Expand the Hamiltonian
+to the second order around the initial point {qI, pI} that qB = qI + ∆q
+and pB = pI + ∆p,
+ˆHR/parenleft.alt1qB, pB/parenright.alt1= ˆH(0)
+R /parenleft.alt1qB, pB/parenright.alt1+ ∆ ˆHR/parenleft.alt1qB, pB/parenright.alt1+ O/bracketleft.alt1{∆q, ∆p}3/bracketright.alt,
+ˆH(0)
+R /parenleft.alt1qB, pB/parenright.alt1= HR/parenleft.alt1qI, pI/parenright.alt1+ h′
+q ⋅ ∆q + h′
+p ⋅ ∆p,
+∆ ˆHR/parenleft.alt1qB, pB/parenright.alt1= 1
+2 h′′
+qq : ∆q∆q + 1
+2 h©
+pp : ∆p∆p + h©
+pq : ∆q∆p.
+(9)
+The solution thus consists of a ˆρ(0)/parenleft.alt1qB, t/parenright.alt1term and a Gaussian
+ﬂuctuation,
+ˆρ/parenleft.alt1qB, t/parenright.alt1= ˆρ(0)/parenleft.alt1qB, t/parenright.alt1+ 1√t
+e
+−
+/parenleft.alt2qB −q1 /parenright.alt22
+γσ2 t ˆC, (10)
+where γ= h′′
+pq, and ˆρ(0)/parenleft.alt1qB, t/parenright.alt1is calculated from
+∂
+∂t ˆρ(0)/parenleft.alt1qB, t/parenright.alt1= −
+/uni23A1/uni23A2/uni23A2/uni23A2/uni23A2/uni23A3
+∂H(0)
+R
+∂pB
+∂
+∂qB − ∂H(0)
+R
+∂qB
+∂
+∂pB
+/uni23A4/uni23A5/uni23A5/uni23A5/uni23A5/uni23A6
+ˆρ(0)/parenleft.alt1qB, t/parenright.alt1. (11)
+FIG. 1 . The evolution of a path to its closest minimum free energy path via
+perpendicular sampling.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-3
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 5 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+From Eq. (11), we can easily have /uni27E8.altqBˆρ/parenleft.alt1qB, t/parenright.alt1/uni27E9.alt1= /uni27E8.alt2qBˆρ(0)/parenleft.alt1qB, t/parenright.alt1/uni27E9.alt2,
+meaning that the center of all conformations evolves with the Hamil-
+tonian ˆH(0)
+R /parenleft.alt1qB, pB/parenright.alt1. Therefore, we can adopt optimization methods
+not relying on kinetic energy to ﬁnd the minimum of potential of
+mean force min{V} = min/braceleft.alt2ˆV (0)
+R /braceright.alt2to locate the maximum of mean
+probability density (or free energy minimum), i.e., qM(n) on the
+MFEP.
+Therefore, here we perform the perpendicular sampling initi-
+ated from the path nodes via restrain potentials on their correspond-
+ing value ofs. No bias is applied to the PCVz component because the
+value of z, equivalent to the /divides.alt0∆q/divides.alt0, will later be used to extract nodes
+of the new path in each iteration.
+The minimum of the potential of mean force could only be
+reached by MD simulations if the kinetic energy is always coupled
+to the same value that ˆH(0)
+R = const. + ˆV (0)
+R . Therefore, we resample
+the kinetic energy at the beginning of each iteration by regenerating
+velocities at the same temperatures.
+Note that, unlike the local sampling adopted in the string
+method,43,53,54,56 the perpendicular sampling is non-local: although
+discouraged to move along the direction of the path by the restrain
+potential, the system is allowed to move freely in all directions
+perpendicular to the path.
+We exemplify such perpendicular sampling on an unphys-
+ical path for the C7eq-to-C7ax transition of alanine dipeptide in
+vacuum (see the section titled “Simulation Details” and Fig. 2).
+Here all heavy atoms of alanine dipeptide are used for structural
+alignment and RMSD calculation. Such non-local perpendicular
+sampling (1 ps per node in this iteration) can quickly ﬁnd some
+segments of the closest MFEP. Note that to facilitate the subse-
+quent step of path reparameterization, one dimensional MetaD is
+performed on s (not on z), for generating sufﬁcient samples, in
+similar spirit to local elevation 89—the immediate predecessor of
+MetaD.
+Because path nodes typically evolve to regions with lower
+free energy during the sampling, the samples collected from such
+perpendicular relaxation are natural backbones for a new path.
+Since z is unbiased in the sampling around each node, these back-
+bones can be found by extracting the centroid of the samples
+with the median value of z. However, because the sampling is
+non-local, these centroids are often in a wrong order if the node
+index in the original path is kept (Fig. 2). Therefore, an automated
+scheme to re-generate an order for the median(z) nodes becomes
+necessary.
+Traveling-salesman based path node reordering
+We manage to perform this reordering by formulating it as
+a traveling-salesman problem well-deﬁned in computer science. 67
+A standard traveling-salesman solver aims to ﬁnd a round trip
+FIG. 2. Flowchart of Traveling-salesman
+based Automated Path Searching
+(TAPS), exempliﬁed by alanine dipeptide
+in vacuum. One-dimensional MetaD
+is ﬁrst performed for each path node
+on the “progress component” s of
+the path-collective-variable (PCV)
+with restraint potential on s (colored
+trajectories). Such sampling allows each
+node to freely relax in all directions
+perpendicular to the current path, which
+can quickly ﬁnd some segments of
+the closest minimum free energy path.
+The backbone nodes of the new path
+correspond to the centroids of the
+conformations with the median value
+of the “deviation component” z of PCV
+(light blue). However, the order of these
+new nodes is often wrong, necessitating
+a re-ordering a traveling-salesman
+scheme (pink). Re-parameterization
+is ﬁnally performed to maintain the
+resolution of the new path (green). Free
+energy contours of ( ', ψ) are plotted
+every 2 kBT with the blue contours
+denoting the two stable states C7eq and
+C7ax.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-4
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 6 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+FIG. 3 . Details of the traveling-salesman scheme and path re-parameterization.
+(a) The standard traveling-salesman solver (Concorde) ﬁnds a round trip (cycle)
+with minimum total distance among all path nodes. Here the order is generated
+by ﬁnding the traveling-salesman path, which is a variant of the original traveling-
+salesman problem that contains a virtual node has zero distance to all other nodes.
+(b) To maintain the resolution of the path, a cutoff distance∆ is set such that when
+the distance between two neighbor nodes di ,i +1 > ∆, a sampled conformation
+(orange) at the bisection with largest angle γ will be inserted between them (blue).
+This insertion scheme is performed until di ,i +1 ≤ ∆ for all neighbor nodes or no
+more sampled conformations can be inserted. (c) The straightness of the path can
+be maintained by short-cutting the nodes with distance di ,j ≤ σ∆, where σ > 1 is
+a pre-set constant, and then re-insert conformations between them.
+(cycle) that visits all cities of interest exactly once while keep-
+ing the total cost (distance) of the trip minimal. Here we treat
+all median(z) centroids as the cities to visit and aim to ﬁnd the
+traveling-salesman path, a variant of the original traveling-salesman
+problem, which connect all cities. This is achieved by introduc-
+ing an extra virtual node which has zero distance to all real
+nodes [Fig. 3(a)]. By applying the traveling-salesman solver Con-
+corde90 to all nodes, we obtain a minimum cost cycle including
+the virtual node. The traveling-salesman path (order of the nodes)
+is then naturally found by removing the virtual node from the
+cycle.
+Note that although the traveling-salesman problem is NP-
+hard,67 when the number of nodes to reorder is <1000, the time for
+Concorde to obtain the traveling-salesman path never exceeds a few
+minutes on a state-of-the-art desktop computer. Consequently, the
+time-cost of this crucial reordering step is negligible compared with
+the actual MD sampling.
+Path reparameterization
+Due to the tendency of the sampling to drop into the known
+free energy minima, the nodes of the new path are often unevenly
+distributed, necessitating reparameterization of the new path. We
+perform the reparameterization via three simple procedures: ter-
+minal truncation, nodes insertion, and path straightening. When
+multiple parallel MFEPs coexist between the two terminal confor-
+mations, the non-local perpendicular sampling is likely to ﬁnd seg-
+ments from all these MFEPs, especially in early iterations (see upper
+left of the free energy contours in Fig. 2). To focus on the clos-
+est MFEP, we ﬁrst ﬁnd the two median(z) nodes closest to the two
+known terminal nodes of the original guess path and then disregard
+the tail nodes beyond them. Automatic search for parallel MFEPs is
+left for future study.
+Subsequently, by setting a cut-off distance ∆, we identify the
+neighbour nodes with di,i+1 > ∆, select conformations from the
+MetaD samples [gray dots in Fig. 3(b)] as new nodes and insert them
+between the distant neighbours until di,i+1 ≤ ∆ holds for all neigh-
+bour nodes. The selected conformations must be close to the bisec-
+tion between the neighbour nodes while holding the largest angle
+γ among all bisection conformations [Fig. 3(b)]. To avoid unnec-
+essary loops or curves of the path, conformations with γ ≤ 90○ are
+never inserted. To further minimize the curvature of the path, we
+set a straightening factor σ > 1, short-cut between the nodes with
+di,j ≤ σ∆, and then re-insert nodes between them to ensure di,i+1 ≤
+∆ for all neighbours [Fig. 3(c)]. Meanwhile, σ must be ≤d1,N/3∆ to
+prevent disregarding too many nodes, with d1,N being the distance
+between the terminal nodes. Whendi,i+1≤ ∆ cannot be fulﬁlled using
+solely the MetaD samples, we generate additional sample confor-
+mations between the distant neighbour nodes by performing extra
+tMD simulations although other choices of sampling schemes are
+FIG. 4 . Efﬁciency of TAPS on alanine
+dipeptide in vacuum. (a) An example run
+of TAPS. (b) Average performance of
+100 TAPS runs and 100 runs of the string
+method with swarms-of-trajectories
+(SMwSTs). Convergence of TAPS is
+measured by
+/radical.alt1
+/uni27E8z/uni27E9, the square root of
+the average PCV- z over the whole path,
+with respect to the initial path. Conver-
+gence of the string method is measured
+by RMSD in the 4 torsion space with
+respect to the initial path. Transparent
+gray areas denote the standard devia-
+tion over the 100 runs. Red dashed lines
+mark the average convergence time.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-5
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 7 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+also possible. 91,92 Note that unlike the string method where the
+number of nodes N is ﬁxed, N in TAPS is determined by ∆ and
+σ and thus can vary throughout the search. In practice, ∆ should
+be chosen such that N < 1000 to allow quick node reordering by
+Concorde.
+After one TAPS iteration as described above, a clear shift
+of the path can already be observed (bottom right of Fig. 2).
+Consequently, in this example run [Fig. 4(a)], the MFEP can
+be located within merely 4 TAPS iterations (accumulatively
+64 ps).
+In summary, only four major inputs are required for TAPS: (a)
+the atom set for structure alignment, (b) the atom-set for computing
+the RMSD and thus the PCV, (c) the cut-off distance ∆ controlling
+the path resolution, and (d) the factor σ controlling the straightness
+of path.
+SIMULATION DETAILS
+TAPS
+All TAPS simulations were performed using GROMACS-
+5.0.4,93 PLUMED-2.2.1,94 and Concorde, 90 wrapped within a
+python script publicly available at https://github.com/
+liusong299/TAPS. All simulations were performed in the NVT
+ensemble at T = 300 K, using the velocity-rescale thermostat.95
+String method with swarms-of-trajectories (SMwSTs)
+To compare the performance of TAPS and the string method,
+we performed SMwST on the two peptide systems via the software
+NAMD-2.1096 and the script provided in the NAMD tutorial. We
+modiﬁed the script to ﬁx the two terminal nodes of the path for a
+fair comparison with TAPS. All production simulations were per-
+formed under the NVT ensemble, where temperature was controlled
+at T = 300 K by the velocity-rescale thermostat 95 and the Langevin
+thermostat97 in SMwST.
+Alanine dipeptide
+Alanine dipeptide was simulated in vacuum using the
+AMBER03 forceﬁeld, 98 with a time step of 1 fs. The initial path
+was obtained by selecting conformations at the corresponding values
+of (', ψ) from a 100 ns 2D well-tempered MetaD simulation 99,100
+biasing on ( ', ψ) that produced the free energy contours in
+Figs. 2 and 4.
+For TAPS, the RMSD among conformations was computed by
+all 10 heavy atoms. Structure alignment was performed using the
+same atom-set. In each TAPS iteration, 16 ps sampling was per-
+formed in total, i.e., 16 ps/N for each node, where N is the number of
+nodes. Note that in TAPS simulations, the two parameters control-
+ling the resolution ∆ and straightness σ of the paths were set as 0.2 Å
+and 1.5, respectively. Sampling less than 16 ps per iteration could
+FIG. 5 . Efﬁciency of TAPS on Met-
+enkephalin in explicit solvents. (a) Pro-
+jection of the converged paths by TAPS
+and SMwST onto the Cα distance,
+sidechain distance (x-axis), and back-
+bone hydrogen bond distance between
+the residues Tyr1 and Met5 (y-axis).
+The free energy contours are reweighted
+from PCV-MetaD along the converged
+path and plotted every 1 kBT. Blue con-
+tours denote the location of the min-
+imum free energy channel. (b) Free
+energy landscape along the converged
+path obtained by PCV-MetaD. (c) Aver-
+age performance of 10 TAPS runs and
+10 SMwST runs. Convergence of TAPS
+and SMwST is measured, respectively,
+by
+/radical.alt1
+/uni27E8z/uni27E9and the RMSD in the CV space
+of 28 distances from the initial path.
+Transparent gray areas denote the stan-
+dard deviation over the 10 runs. Red
+dashed lines mark the average conver-
+gence time.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-6
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 8 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+not reach convergence. Gaussians of height 0.05 kJ/mol and width
+0.5 were deposited every 0.01 ps. Frames were recorded every 2 fs.
+The restrain potential was set as 15(s − si)2 kJ/mol, with si being s of
+the ith node.
+For SMwST, four torsion angles ( ', ψ, θ, ζ) were used as the
+CV space. Each SMwST iteration included 10 swarms each lasting
+0.01 ps and 0.1 ps equilibration per node, amounting to 3.2 ps for 16
+nodes.
+Met-enkephalin
+The NMR structure of Met-enkephalin (PDB ID 1PLX)101 with
+non-charged termini was solvated in a dodecahedron box with 954
+TIP3P waters and 3 Na+/Cl-ions. The CHARMM36 forceﬁeld 102
+was used to describe the interactions in the system. Energy min-
+imization was performed for 10 000 steps by the steepest descent
+algorithm and then by the conjugate gradient algorithm. Then A
+100 ps NVT simulations was performed at 300 K for solvent equi-
+libration, followed by a 1 ns NpT equilibration to 1 atm using
+the Berendsen barostat. 103 All MD simulations were performed
+with a time-step of 2 fs. Long-range electrostatic interactions were
+treated by the particle-mesh Ewald method. 104,105 The short-range
+electrostatic and van der Waals interactions both used a cutoff
+of 10 Å. All bonds were constrained by the LINCS algorithm. 106
+A 1 µs unbiased NVT trajectory was obtained as reference unbi-
+ased dataset and used to extract the 3 10-helix and β-turn struc-
+tures. This 1 µs trajectory also serves as a reference dataset con-
+taining the unbiased transitions, i.e., the MFEPs, between the two
+structures.
+The initial path was generated by tMD, pulling from the
+310-helix to the β-turn. For TAPS, the RMSD among conforma-
+tions was computed using all 40 heavy atoms, while the struc-
+tures were aligned on all 15 backbone atoms. In each TAPS iter-
+ation, 500 ps sampling was performed in total, with ∆ = 0.70 Å,
+σ = 1.20. Gaussians of height 0.125 kJ/mol and width 0.25
+were deposited every 0.04 ps, with frames recorded at the same
+frequency.
+For SMwST, 28 distances were used to deﬁne the CV
+space (Table 1 of the supplementary material). Each SMwST
+iteration included 100.02 ps swarms and 0.2 ps equilibration per
+node, amounting to 11.2 ps for 28 nodes. In Fig. 5, the 1D free
+energy proﬁles were obtained via a 100 ns well-tempered MetaD
+along PCVs of the MFEP found by SMwST. For this well-tempered
+MetaD run, Gaussian hills of height 0.25 kJ/mol and width 0.25 were
+deposited every 0.2 ps, with a bias-factor of 8. A wall potential 10 8
+(z − z0)2 kJ/mol was applied with z0 = 1 Å. The free energy contours
+in Fig. 5 were reweighted107 from this MetaD run.
+RESULTS
+Alanine dipeptide in vacuum
+To systematically compare the efﬁciency of TAPS and exist-
+ing local-sampling methods, we perform 100 independent TAPS
+runs and 100 runs of SMwST. 43,62 To ensure that SMwST can cor-
+rectly ﬁnd the high dimensional MFEP C7eq-to-C7ax dipeptide in
+high dimensions, here we assume that the minimal complete set
+of CVs (all four torsion angles 54) to characterize this transition is
+known prior to the search even though this is often not the case for
+large complicated systems. For both TAPS and SMwST, the amount
+of sampling per iteration is pushed to minimal (details in the sec-
+tion titled “Methods”). For TAPS, convergence is evaluated using/radical.alt1
+/uni27E8z/uni27E9, where /uni27E8z/uni27E9means the averaged z over all nodes of the path in
+each iteration with respect to the initial path. For SMwST, conver-
+gence is measured by the RMSD in the 4D torsion space between
+the path in each iteration and the initial path. Figure 4(b) illustrates
+that even when sufﬁcient prior knowledge of the CVs is available for
+SMwST, the average sampling required for convergence for TAPS
+and SMwST is 160 ps and 1.3 ns, respectively, indicating an∼8 times
+speedup by TAPS.
+FIG. 6. Committor analysis of the minimum free energy path for Met-enkephalin. The transition state is found at the peak of the function P(1-P), where P(s) is the committor
+function meaning the probability of the system to visit the 3 10 helix state before visiting the β-turn state staring from the conformation s. Here we deﬁne the two states using
+the PCV-s computed on the corresponding path: (a) in the 28-node path found by the string method with swarms-of-trajectories (SMwSTs), the 310 helix state corresponds to
+s = 1-7, and the β-turn state corresponds to s = 15-28. (b) in the 24-node path found by TAPS, the 3 10 helix state corresponds to s = 1-8, and the β-turn state corresponds
+to s = 16-24.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-7
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 9 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+Met-enkephalin
+To test the performance of TAPS on more realistic systems,
+we perform 10 independent runs of TAPS and SMwST on a penta-
+peptide Met-enkephalin in an explicit solvent. The initial path
+for Met-enkephalin is generated by tMD, pulled from a 3 10-helix
+(labeled 1 in Fig. 5) to a β-turn (labeled 2 in Fig. 5). For TAPS,
+all heavy atoms are used for computing the RMSD among the
+conformations aligned on all backbone atoms. For SMwST, 28 pair-
+wise distances among the heavy atoms are chosen as CVs (Table 1 of
+the supplementary material).
+We project the paths found by TAPS and SMwST on 3 dis-
+tances among different parts of the residues Tyr1 and Met5: C α-
+Cα, sidechain-sidechain, and O-N measuring the formation of the
+backbone hydrogen bond [Fig. 5(a)]. Clearly, the majority of nodes
+in the initial guess path are in regions with high free energy.
+Despite minor differences in the ﬁnal paths, TAPS and SMwST
+both identify the channel corresponding to the MFEP. In partic-
+ular, both methods manage to sample the transition state (TS)
+region [Fig. 5(b)]. As validated by committor analysis (Fig. 6),
+the TS is a distorted α-helix-like structure, in which the back-
+bone hydrogen bond between Met5 and Tyr1 and that between
+Met5 and Gly2 are both marginally broken. The corresponding
+free energy barrier height is ∼5.2 k BT, as revealed by PCV-metaD
+along the SMwST path. These results indicate a critical role of
+the backbone hydrogen bond between Met5 and Tyr1 in the
+transition.
+On average, TAPS needs 3 ns to converge, which is merely
+∼1/5 of the 16 ns required for SMwST [Fig. 5(c)]. Here the
+lower efﬁciency gains by TAPS than the case of alanine dipep-
+tide possibly originate from the different barrier heights for the
+two systems: 5.2 k BT for Met-enkephalin and 13 k BT for alanine
+dipeptide. A lower barrier could mean easier convergence to the
+MFEP and make the difference between the two methods less
+pronounced.
+DISCUSSION
+As an alternative to the string method, 43,53,54 TAPS is par-
+ticularly useful as an initial sampling technique for characteriz-
+ing the kinetics of large biomolecular systems under the frame-
+work of Markov state models 13,14,16,17,19–21,49,108–111 and mile-
+stoning.112–116 For instance, the string method has been applied for
+such purposes in studying a few signaling proteins. 58–61 The found
+that MFEP(s) among the known structures have been used to seed
+subsequent unbiased MD simulation for MSM construction. The
+higher efﬁciency and the minimal requirement on the prior knowl-
+edge of the system of TAPS may make it more suitable for such tasks
+than the string method, particularly for large complicated biomolec-
+ular systems. We notice that TAPS generates converged paths with
+larger ﬂuctuations compared to the string method [see results of ala-
+nine dipeptide in Fig. 4(b) and Met-enkephalin in Fig. 5(c)]. This is
+not surprising as the extensive unstrained sampling (∼1 ps in TAPS
+v.s 0.01 ps in SMwST for alanine dipeptide) along directions per-
+pendicular to the path in TAPS could generate substantial sampling
+deviated from the path. Accordingly, in TAPS, we obtain the MFEP
+by taking the central path ( min/parenleft.alt2∑j/uni27E8z/uni27E9ij/parenright.alt2) among the ones from the
+last few rounds.
+TAPS can also be considered as an extension to existing meth-
+ods that pursued perpendicular sampling, 50,51 not only because of
+its avoidance of the static CV space. The sampling in the fast tomo-
+graphic method, though perpendicular, is assumed local, possibly
+to keep the order of nodes invariant. 51 The reordering scheme in
+TAPS avoids this assumption and allows for non-local sampling.
+Path-MetaD pursued non-local perpendicular sampling50 but relied
+on a single long MetaD simulation. As the sampling of path nodes in
+TAPS can be performed simultaneously, TAPS is potentially more
+parallelizable than Path-MetaD.
+We also note that, for high dimensional systems, RMSD (the
+distance metric for deﬁning PCV) could only precisely describe the
+similarity between pairs of conformations when its value is small.
+Therefore, the cut-off RMSD distance ∆ (see Fig. 2) controlling
+the path resolution in TAPS should be set sufﬁciently small. When
+the RMSD distance between the initial and ﬁnal conformational
+states is large, a small ∆ may inevitably result in a large number of
+nodes on the path, slowing down the traveling-salesman reorder-
+ing scheme. In such cases, we could limit the number of path nodes
+by performing a coarse search (large ∆) for metastable intermedi-
+ates that divide the original long path into segments and then high
+resolution TAPS runs (small ∆) to locate the MFEP closest to each
+segment.
+CONCLUSION
+We have introduced a highly efﬁcient, parallelizable, and auto-
+mated path searching method TAPS for biomolecular systems. It
+adopts non-local sampling for a rapid search of segments of the clos-
+est MFEP in all directions perpendicular to a guess path and uses
+a traveling-salesman scheme to reorder the newly generated path
+nodes. Besides, unlike most existing methods, 43,50,51,53,54 TAPS is
+based on PCV, deﬁned directly on high dimensional system images.
+With such a feature, TAPS minimizes the necessary prior knowledge
+about the system and only requires a few major inputs: the atom-sets
+for structure alignment and RMSD computation, the cut-off dis-
+tance ∆ controlling the path resolution, and the factor σ controlling
+the path straightness. Having demonstrated a 5-8 times speedup over
+the string method with swarms-of-trajectories, TAPS holds great
+promise to be widely applied to large biomolecular systems.
+SUPPLEMENTARY MATERIAL
+The collective variables chosen to perform the string method
+with swarms-of-trajectories on Met-enkephalin are listed in Table 1
+of the online supplementary material.
+ACKNOWLEDGMENTS
+This work was supported by the Hong Kong Research Grant
+Council [Grant Nos. HKUST C6009-15G, 16307718, 16318816, and
+AoE/P-705/16], King Abdullah University of Science and Technol-
+ogy (KAUST) Ofﬁce of Sponsored Research (OSR) (No. OSR-2016-
+CRG5-3007), Shenzhen Science and Technology Innovation Com-
+mittee (No. JCYJ20170413173837121), Guangzhou Science Tech-
+nology and Innovation Commission (No. 201704030116), and Inno-
+vation and Technology Commission (No. ITC-CNERC14SC01).
+X.H. is the Padma Harilela Associate Professor of Science.
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-8
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 10 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+REFERENCES
+1M. A. Rohrdanz, W. Zheng, and C. Clementi, Annu. Rev. Phys. Chem. 64, 295
+(2013).
+2L. T. Chong, A. S. Saglam, and D. M. Zuckerman, Curr. Opin. Struct. Biol.43, 88
+(2017).
+3P. G. Bolhuis et al., Annu. Rev. Phys. Chem. 53, 291 (2002).
+4D. Moroni, T. S. van Erp, and P. G. Bolhuis, Physica A 340, 395 (2004).
+5P. G. Bolhuis, J. Chem. Phys. 129, 114108 (2008).
+6D. W. H. Swenson and P. G. Bolhuis, J. Chem. Phys. 141, 044101 (2014).
+7W. Du and P. G. Bolhuis, Biophys. J. 108, 368 (2015).
+8R. Cabriolu et al., J. Chem. Phys. 147, 152722 (2017).
+9W. E and E. Vanden-Eijnden, Annu. Rev. Phys. Chem. 61, 391 (2010).
+10R. B. Best and G. Hummer, Proc. Natl. Acad. Sci. U. S. A. 102, 6732 (2005).
+11B. Peters, Annu. Rev. Phys. Chem. 67, 669 (2016).
+12R. D. Malmstrom et al., J. Chem. Theory Comput. 10, 2648 (2014).
+13G. R. Bowman, X. Huang, and V. S. Pande, Methods 49, 197 (2009).
+14X. Huang et al., Proc. Natl. Acad. Sci. U. S. A. 106, 19765 (2009).
+15B. W. Zhang et al., J. Phys. Chem. B 120, 8289 (2016).
+16F. Morcos et al., PLoS Comput. Biol. 6, e1001015 (2010).
+17J. H. Prinz et al., J. Chem. Phys. 134, 174105 (2011).
+18B. E. Husic and V. S. Pande, J. Am. Chem. Soc. 140, 2386 (2018).
+19J. D. Chodera et al., J. Chem. Phys. 126, 155101 (2007).
+20A. C. Pan and B. Roux, J. Chem. Phys. 129, 064107 (2008).
+21N. V. Buchete and G. Hummer, J. Phys. Chem. B 112, 6057 (2008).
+22F. Noe et al., Proc. Natl. Acad. Sci. U. S. A. 106, 19011 (2009).
+23K. A. Beauchamp et al., Proc. Natl. Acad. Sci. U. S. A. 109, 17807 (2012).
+24T. J. Lane et al., Curr. Opin. Struct. Biol. 23, 58 (2013).
+25V. A. Voelz et al., J. Am. Chem. Soc. 134, 12565 (2012).
+26G. R. Bowman, V. A. Voelz, and V. S. Pande, Curr. Opin. Struct. Biol. 21, 4
+(2011).
+27K. J. Kohlhoff et al., Nat. Chem. 6, 15 (2014).
+28L.-T. Da et al., Nat. Commun. 7, 11244 (2016).
+29H. Jiang et al., PLoS Comput. Biol. 11, e1004404 (2015).
+30L.-T. Da et al., PLoS Comput. Biol. 11, e1004624 (2015).
+31L. T. Da et al., PLoS Comput. Biol. 9, e1003020 (2013).
+32L.-T. Da, D. Wang, and X. Huang, J. Am. Chem. Soc. 134, 2399 (2012).
+33D. A. Silva et al., Proc. Natl. Acad. Sci. U. S. A. 111, 7665 (2014).
+34M. Weber, A. Bujotzek, and R. Haag, J. Chem. Phys. 137, 054111 (2012).
+35N. Plattner et al., Nat. Chem. 9, 1005 (2017).
+36D. K. Vanatta et al., Nat. Commun. 6, 7283 (2015).
+37D.-A. Silva et al., PLoS Comput. Biol. 7, e1002054 (2011).
+38R. D. Malmstrom et al., Nat. Commun. 6, 7588 (2015).
+39M. Lawrenz, D. Shukla, and V. S. Pande, Sci. Rep. 5, 7918 (2015).
+40I. Buch, T. Giorgino, and G. De Fabritiis, Proc. Natl. Acad. Sci. U. S. A. 108,
+10184 (2011).
+41Y. M. Rhee and V. S. Pande, Biophys. J. 84, 775 (2003).
+42Y. Sugita and Y. Okamoto, Chem. Phys. Lett. 314, 141 (1999).
+43A. C. Pan, D. Sezer, and B. Roux, J. Phys. Chem. B 112, 3432 (2008).
+44D. R. Weiss and M. Levitt, J. Mol. Biol. 385, 665 (2009).
+45J. Schlitter, M. Engels, and P. Krüger, J. Mol. Graphics 12, 84 (1994).
+46A. Mitsutake, Y. Sugita, and Y. Okamoto, Biopolymers 60, 96 (2001).
+47J. Vreede, J. Juraszek, and P. G. Bolhuis, Proc. Natl. Acad. Sci. U. S. A.107, 2397
+(2010).
+48J. Lee et al., Nat. Commun. 8, 15443 (2017).
+49W. Wang et al., Wiley Interdiscip. Rev.: Comput. Mol. Sci. 8, e1343 (2017).
+50G. Díaz Leines and B. Ensing, Phys. Rev. Lett. 109, 020601 (2012).
+51C. Chen et al., J. Chem. Phys. 141, 154109 (2014).
+52E. Vanden-Eijnden and M. Venturoli, J. Chem. Phys. 130, 194103 (2009).
+53L. Maragliano and E. Vanden-Eijnden, Chem. Phys. Lett. 446, 182 (2007).
+54L. Maragliano et al., J. Chem. Phys. 125, 024106 (2006).
+55W. E, W. Ren, and E. Vanden-Eijnden, J. Phys. Chem. B 109, 6688 (2005).
+56W. Ren et al., J. Chem. Phys. 123, 134109 (2005).
+57E. Weinan, W. Q. Ren, and E. Vanden-Eijnden, Phys. Rev. B 66, 052301
+(2002).
+58D. Shukla et al., Nat. Commun. 5, 3397 (2014).
+59W. Gan, S. Yang, and B. Roux, Biophys. J. 97, L8 (2009).
+60F. Pontiggia et al., Nat. Commun. 6, 7284 (2015).
+61Y. Meng et al., Proc. Natl. Acad. Sci. U. S. A. 113, 9193 (2016).
+62L. Maragliano, B. Roux, and E. Vanden-Eijnden, J. Chem. Theory Comput. 10,
+524 (2014).
+63D. Branduardi and J. D. Faraldo-Gómez, J. Chem. Theory Comput. 9, 4140
+(2013).
+64V. Ovchinnikov, M. Karplus, and E. Vanden-Eijnden, J. Chem. Phys. 134,
+085103 (2011).
+65M. Moradi, G. Enkavi, and E. Tajkhorshid, Nat. Commun. 6, 8393 (2015).
+66W. Ma and K. Schulten, J. Am. Chem. Soc. 137, 3031 (2015).
+67D. L. Applegate et al., The Traveling Salesman Problem: A Computational Study
+(Princeton University Press, 2011).
+68D. Branduardi, F. L. Gervasio, and M. Parrinello, J. Chem. Phys. 126, 054103
+(2007).
+69A. Tachibana and K. Fukui, Theor. Chim. Acta 57, 81 (1980).
+70A. Tachibana and K. Fukui, Theor. Chim. Acta 51, 275 (1979).
+71A. Laio and M. Parrinello, Proc. Natl. Acad. Sci. U. S. A. 99, 12562 (2002).
+72A. Berteotti et al., J. Am. Chem. Soc. 131, 244 (2009).
+73N. Saleh et al., J. Chem. Inf. Model. 57, 1210 (2017).
+74E. Formoso, V. Limongelli, and M. Parrinello, Sci. Rep. 5, 8425 (2015).
+75A. C. Pan et al., J. Chem. Theory Comput. 10, 2860 (2014).
+76L. Ceccarini et al., PLoS ONE 7, e49017 (2012).
+77D. Provasi et al., PLoS Comput. Biol. 7, e1002193 (2011).
+78C. Domene et al., J. Am. Chem. Soc. 130, 9474 (2008).
+79J. S. Patel et al., J. Chem. Theory Comput. 7, 3368 (2011).
+80M. Fribourg et al., Cell 147, 1011 (2011).
+81G. Saladino et al., J. Chem. Theory Comput. 8, 1165 (2012).
+82P. Tiwary et al., Proc. Natl. Acad. Sci. U. S. A. 112, E386 (2015).
+83S. Decherchi et al., Nat. Commun. 6, 6155 (2015).
+84R. Casasnovas et al., J. Am. Chem. Soc. 139, 4780 (2017).
+85M. A. Morando et al., Sci. Rep. 6, 24439 (2016).
+86A. Cavalli et al., Acc. Chem. Res. 48, 277 (2015).
+87V. Limongelli et al., Proc. Natl. Acad. Sci. U. S. A. 109, 1467 (2012).
+88J. Pfaendtner et al., Proc. Natl. Acad. Sci. U. S. A. 106, 12723 (2009).
+89T. Huber, A. E. Torda, and W. F. Gunsteren, J. Comput.-Aided Mol. Des.8, 695
+(1994).
+90D. Applegate, R. Bixby, V. Chvatal, and W. Cook, The Traveling Salesman
+Problem: A Computational Study (Princeton University Press, 2006).
+91J. MacFadyen and I. Andricioaei, J. Chem. Phys. 123, 074107 (2005).
+92J. MacFadyen, J. Wereszczynski, and I. Andricioaei, J. Chem. Phys. 128, 114112
+(2008).
+93M. J. Abraham et al., SoftwareX 1–2, 19 (2015).
+94G. A. Tribello et al., Comput. Phys. Commun. 185, 604 (2014).
+95G. Bussi, D. Donadio, and M. Parrinello, J. Chem. Phys. 126, 014101 (2007).
+96J. C. Phillips et al., J. Comput. Chem. 26, 1781 (2005).
+97G. S. Grest and K. Kremer, Phys. Rev. A 33, 3628 (1986).
+98Y. Duan et al., J. Comput. Chem. 24, 1999 (2003).
+99J. F. Dama, M. Parrinello, and G. A. Voth, Phys. Rev. Lett. 112, 240602 (2014).
+100A. Barducci, G. Bussi, and M. Parrinello, Phys. Rev. Lett. 100, 020603 (2008).
+101I. Marcotte et al., Biophys. J. 86, 1587 (2004).
+102J. Huang and A. D. MacKerell, J. Comput. Chem. 34, 2135 (2013).
+103H. J. C. Berendsen et al., J. Chem. Phys. 81, 3684 (1984).
+104U. Essmann et al., J. Chem. Phys. 103, 8577 (1995).
+105T. Darden, D. York, and L. Pedersen, J. Chem. Phys. 98, 10089 (1993).
+106B. Hess et al., J. Comput. Chem. 18, 1463 (1997).
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-9
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52
+
+
+--- PAGE 11 ---
+The Journal
+of Chemical Physics ARTICLE scitation.org/journal/jcp
+107M. Bonomi, A. Barducci, and M. Parrinello, J. Comput. Chem.30, 1615 (2009).
+108W. Zheng et al., J. Phys. Chem. B 112, 6083 (2008).
+109J. D. Chodera and F. Noe, Curr. Opin. Struct. Biol. 25, 135 (2014).
+110L. Zhu et al., Phys. Chem. Chem. Phys. 18, 30228 (2016).
+111H. Wu et al., Proc. Natl. Acad. Sci. U. S. A. 113, E3221 (2016).
+112A. K. Faradjian and R. Elber, J. Chem. Phys. 120, 10880 (2004).
+113E. Vanden-Eijnden and M. Venturoli, J. Chem. Phys. 130, 194101 (2009).
+114P. Májek and R. Elber, J. Chem. Theory Comput. 6, 1805 (2010).
+115E. Vanden-Eijnden et al., J. Chem. Phys. 129, 174102 (2008).
+116S. Kirmizialtin and R. Elber, J. Phys. Chem. A 115, 6137 (2011).
+J. Chem. Phys. 150, 124105 (2019); doi: 10.1063/1.5082633 150, 124105-10
+Published under license by AIP Publishing
+ 08 September 2026 07:55:52

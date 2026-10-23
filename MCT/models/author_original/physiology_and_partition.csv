@@ -1,0 +1,19 @@
+﻿parameter_as_printed,symbol,value,section,source,status
+Body weight (kg),BW,0.25,Physiological parameters (Brown et al.1997),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Fat,VFc,0.07,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Liver,VLc,0.034,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Small intestine,VSic,0.014,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Blood,VBc,0.074,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Richly perfused tissue,VRc,0.042,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Slowly perfused tissue,VSc,0.75,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Cardiac output (L/h/kg0.74),QC,15,Tissue volume (fraction of body weight),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Fat,QFc,0.07,Blood flow to tissue (fraction of cardiac output),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Liver,QLc,0.132,Blood flow to tissue (fraction of cardiac output),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Small intestine,QSic,0.118,Blood flow to tissue (fraction of cardiac output),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Richly perfused tissue,QRc,0.51,Blood flow to tissue (fraction of cardiac output),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Slowly perfused tissue,QSc,0.17,Blood flow to tissue (fraction of cardiac output),Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Fat,PF,0.46,Monocrotaline,Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Liver,PL,0.77,Monocrotaline,Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Small intestine,PI,0.77,Monocrotaline,Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Richly perfused tissue,PR,0.77,Monocrotaline,Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements
+Slowly perfused tissue,PS,0.42,Monocrotaline,Suparmi2020 Table1,model input; physiological/partition values are not CYP-specific measurements

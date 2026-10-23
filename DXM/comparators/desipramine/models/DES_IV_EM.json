@@ -1,0 +1,1531 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0077
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.7687
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Aarnoutse (2005), n=13 (EM)",
+      "Seed": 75502656,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 26.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 84.0,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Aldermann (1997), n=17 (EM)",
+      "Seed": 76066046,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.4,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.3,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Bergmann (2001), n=6 (AS=2)",
+      "Seed": 76386718,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 35.6,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Bergmann (2001), n=6 (AS=2.5)",
+      "Seed": 76697671,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 26.38,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Bergstrom (1992), n=6",
+      "Seed": 76940781,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 44.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 78.2,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Boni (2009), n=26 (EM)",
+      "Seed": 77108156,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 33.6,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 80.9,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Harris (2007), n=17 (EM)",
+      "Seed": 78115140,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 31.5,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Hynes (2015), n=20 (EM)",
+      "Seed": 78449250,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 58.3,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 84.3,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.0,
+          "Unit": "cm"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Madani (2002), n=24 (EM)",
+      "Seed": 79032796,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 31.5,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Nichols (2013), n=38 (EM)",
+      "Seed": 80004328,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 31.5,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Patroneva (2008), n=20 (EM)",
+      "Seed": 80384734,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 35.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Skinner (2003), n=16 (EM)",
+      "Seed": 81569046,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 42.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.4,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Spina (1987), n=8 (EM)",
+      "Seed": 81819984,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 39.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Spina (1987), n=6 (PM)",
+      "Seed": 82036421,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 39.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Spina (1995), n=6 (EM)",
+      "Seed": 82470171,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 31.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 74.0,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1986), n=6 (EM)",
+      "Seed": 82804562,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.17,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1986), n=6 (fast EM)",
+      "Seed": 83267093,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 28.33,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1986), n=6 (PM)",
+      "Seed": 83863937,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 29.17,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1988), n=4 (fast EM)",
+      "Seed": 84707281,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 23.75,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1988), n=4 (EM)",
+      "Seed": 85168390,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 29.75,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Brøsen (1988), n=3 (PM)",
+      "Seed": 85624171,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 29.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP2D6|Human|Healthy"
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Desipramine",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Glycoprotein",
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.5204587578,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Predicted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.896,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Predicted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.135,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Predicted, Watanabe et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Predicted",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 214.29,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 1.14e-05,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 10.02,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 2.84,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 32' on 2019-07-05 09:16"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.14,
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Method": "Unknown"
+              }
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 3.52,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.5395490378,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Ball et al. 1997 (2-Hydroxydesipramine)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "2-Hydroxydesipramine",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 68.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 0.732,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Ball et al. 1997, corrected for fu,inc 12% (Austin et al. 2002)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 5.03,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0 (2-Hydroxydesipramine)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "2-Hydroxydesipramine",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 0.73,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Ball et al. 1997, corrected for fu,inc 12% (Austin et al. 2002)"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (2-Hydroxydesipramine)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "2-Hydroxydesipramine",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 0.732,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Ball et al. 1997, corrected for fu,inc 12% (Austin et al. 2002)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 9.86,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2.5 (2-Hydroxydesipramine)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 0.732,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Ball et al. 1997, corrected for fu,inc 12% (Austin et al. 2002)"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 28.88,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 266.388,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "2-Hydroxydesipramine",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.33,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Predicted",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.173,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Predicted",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.12,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Predicted, Watanabe et al. 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Predicted",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 282.39,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "chemicalize.com"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.9,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 10.63,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 4.51,
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Assumption"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.12
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 2.53,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Unknown",
+                "Method": "Unknown"
+              }
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 9.93,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 282.38,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
+          }
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "dissolved",
+      "FormulationType": "Formulation_Dissolved"
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "desipramine hydrochloride 100 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 87.96,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "desipramine hydrochloride 25 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 21.99,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "desipramine hydrochloride 50 mg iv injections (20 x 2.5 mg every 3rd minute)",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "IntravenousBolus",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 2.199,
+                  "Unit": "mg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 20.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 3.0,
+              "Unit": "min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "desipramine hydrochloride 50 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 43.98,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 43.98,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Name": "End time",
+          "Value": 505.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "DES_IV_EM",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 3,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 200,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 3,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 120,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 12,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Desipramine|Intestinal permeability (transcellular)",
+          "Value": 1.1427441258e-05,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'PI iv + PM (po)' on 2023-01-03 10:46"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Brøsen (1988), n=4 (EM)",
+      "Compounds": [
+        {
+          "Name": "2-Hydroxydesipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            }
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Desipramine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP2D6-Ball et al. 1997 (2-Hydroxydesipramine)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "2-Hydroxydesipramine"
+            },
+            {
+              "Name": "Total Hepatic Clearance-Assumption",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "desipramine hydrochloride 50 mg iv injections (20 x 2.5 mg every 3rd minute)"
+          }
+        }
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "intravenous - dgi",
+      "Classifiables": [
+        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
+        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)",
+        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)"
+      ]
+    },
+    {
+      "Name": "oral - no dgi",
+      "Classifiables": [
+        "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM)",
+        "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)",
+        "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
+        "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+        "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)",
+        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
+        "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)",
+        "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
+        "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)",
+        "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM)"
+      ]
+    },
+    {
+      "Name": "oral - dgi",
+      "Classifiables": [
+        "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
+        "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
+        "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
+        "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)",
+        "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)"
+      ]
+    }
+  ]
+}

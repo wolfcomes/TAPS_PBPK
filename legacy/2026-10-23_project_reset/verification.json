@@ -1,0 +1,283 @@
+{
+  "date_utc": "2026-10-23T03:09:40.334217+00:00",
+  "purpose": "Project reconstruction integrity and software reproduction; no new biological validation",
+  "integrity": {
+    "active_files": 110,
+    "active_bytes": 195200810,
+    "local_links_checked": 92,
+    "baseline_models": 8,
+    "evidence_counts": {
+      "dxm_datasets": 41,
+      "dxm_timepoints": 393,
+      "dxm_long_rows": 732,
+      "mct_digitized_points": 14,
+      "mct_baseline_rows": 1010
+    },
+    "structure_hashes_checked": 7,
+    "archived_original_hashes_checked": 2537,
+    "selected_origins_checked": 96,
+    "errors": [],
+    "status": "pass"
+  },
+  "environment": {
+    "R": "4.5.3",
+    "ospsuite": "12.3.2",
+    "PKSim_loaded": "12.1.222"
+  },
+  "baseline_comparisons": [
+    {
+      "name": "DXM_PO_EM",
+      "points": 2173,
+      "compared_columns": 5,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "DXM_IV_EM",
+      "points": 2173,
+      "compared_columns": 4,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "DXM_PO_AS2",
+      "points": 2173,
+      "compared_columns": 4,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "DES_PO_EM",
+      "points": 2173,
+      "compared_columns": 5,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "DES_IV_EM",
+      "points": 2173,
+      "compared_columns": 5,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "DES_PO_AS2",
+      "points": 2173,
+      "compared_columns": 5,
+      "maximum_peak_normalized_error": 0.0
+    },
+    {
+      "name": "MCT_PO",
+      "mode": "pkml",
+      "points": 505,
+      "maximum_time_difference_hours": 0.0,
+      "maximum_peak_normalized_error": 3.374822644363726e-08,
+      "auc_relative_error": 9.193668049078951e-11,
+      "conversion": "min / 60 -> h; µmol/L * 325.36 -> ng/mL",
+      "acceptance_peak_normalized_error": 1e-06
+    },
+    {
+      "name": "MCT_IV",
+      "mode": "pkml",
+      "points": 505,
+      "maximum_time_difference_hours": 0.0,
+      "maximum_peak_normalized_error": 3.060658399301867e-08,
+      "auc_relative_error": 2.5649180557252294e-09,
+      "conversion": "min / 60 -> h; µmol/L * 325.36 -> ng/mL",
+      "acceptance_peak_normalized_error": 1e-06
+    },
+    {
+      "name": "MCT_PO",
+      "mode": "snapshot",
+      "points": 505,
+      "maximum_time_difference_hours": 0.0,
+      "maximum_peak_normalized_error": 0.0,
+      "auc_relative_error": 0.0,
+      "conversion": "min / 60 -> h; µmol/L * 325.36 -> ng/mL",
+      "acceptance_peak_normalized_error": 1e-06
+    },
+    {
+      "name": "MCT_IV",
+      "mode": "snapshot",
+      "points": 505,
+      "maximum_time_difference_hours": 0.0,
+      "maximum_peak_normalized_error": 0.0,
+      "auc_relative_error": 0.0,
+      "conversion": "min / 60 -> h; µmol/L * 325.36 -> ng/mL",
+      "acceptance_peak_normalized_error": 1e-06
+    }
+  ],
+  "run_manifests": {
+    "dxm": {
+      "status": "complete",
+      "case": "DXM",
+      "mode": "pkml",
+      "started_at": "2026-10-23 03:03:27 UTC",
+      "completed_at": "2026-10-23 03:03:47 UTC",
+      "R": "R version 4.5.3 (2026-03-11)",
+      "ospsuite": "12.3.2",
+      "purpose": "Software reproduction only; no fitting or biological validation",
+      "runs": [
+        {
+          "name": "DXM_PO_EM",
+          "input": "DXM/models/baselines/DXM_PO_EM.pkml.gz",
+          "input_sha256": "983007a774d3ec51015d7958e5f30584913ea03f7aaa8dbd52342d462ef25300",
+          "reference": "DXM/results/baselines/DXM_PO_EM/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+            "Organism|PeripheralVenousBlood|Dextrorphan-O-glucuronide|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Dextromethorphan|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Dextromethorphan|Concentration"
+          ],
+          "minimum_concentration": 0
+        },
+        {
+          "name": "DXM_IV_EM",
+          "input": "DXM/models/baselines/DXM_IV_EM.pkml.gz",
+          "input_sha256": "9407689d718fad3926405a22f844161cd4b93a2f9de026956448a33d8984620b",
+          "reference": "DXM/results/baselines/DXM_IV_EM/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Dextromethorphan|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Dextromethorphan|Concentration"
+          ],
+          "minimum_concentration": 0
+        },
+        {
+          "name": "DXM_PO_AS2",
+          "input": "DXM/models/baselines/DXM_PO_AS2.pkml.gz",
+          "input_sha256": "ec2c75eed85b992cbbb54f86ae3f9426bbd0c5279ff57b38804003c1d5a553c9",
+          "reference": "DXM/results/baselines/DXM_PO_AS2/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Dextromethorphan|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Dextromethorphan|Concentration"
+          ],
+          "minimum_concentration": 0
+        }
+      ]
+    },
+    "mct": {
+      "status": "complete",
+      "case": "MCT",
+      "mode": "pkml",
+      "started_at": "2026-10-23 03:03:50 UTC",
+      "completed_at": "2026-10-23 03:03:58 UTC",
+      "R": "R version 4.5.3 (2026-03-11)",
+      "ospsuite": "12.3.2",
+      "purpose": "Software reproduction only; no fitting or biological validation",
+      "runs": [
+        {
+          "name": "MCT_PO",
+          "input": "MCT/models/pilot/MCT_baseline-S1.pkml.gz",
+          "input_sha256": "44a7241e7b5c085bacb4fdb3d1d9befd55d2a4be517e533eebf850053cfc0d3e",
+          "reference": "MCT/results/baseline_curves.csv",
+          "points": 505,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|MCT|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|MCT|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|MCT|Concentration"
+          ],
+          "minimum_concentration": 0
+        },
+        {
+          "name": "MCT_IV",
+          "input": "MCT/models/pilot/MCT_baseline-S2.pkml.gz",
+          "input_sha256": "f8e0f946066f96b85caed7a8ca32c5f2d088fced09742aaa1dd933b9d0f83b28",
+          "reference": "MCT/results/baseline_curves.csv",
+          "points": 505,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|MCT|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|MCT|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|MCT|Concentration"
+          ],
+          "minimum_concentration": 0
+        }
+      ]
+    },
+    "des": {
+      "status": "complete",
+      "case": "DES",
+      "mode": "pkml",
+      "started_at": "2026-10-23 03:04:00 UTC",
+      "completed_at": "2026-10-23 03:04:15 UTC",
+      "R": "R version 4.5.3 (2026-03-11)",
+      "ospsuite": "12.3.2",
+      "purpose": "Software reproduction only; no fitting or biological validation",
+      "runs": [
+        {
+          "name": "DES_PO_EM",
+          "input": "DXM/comparators/desipramine/models/DES_PO_EM.pkml.gz",
+          "input_sha256": "1cecc9886bf4f884c080422e6d18a9b93e432fb332c3e191f84b87553fc6f319",
+          "reference": "DXM/comparators/desipramine/results/DES_PO_EM/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Desipramine|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Desipramine|Concentration"
+          ],
+          "minimum_concentration": 0
+        },
+        {
+          "name": "DES_IV_EM",
+          "input": "DXM/comparators/desipramine/models/DES_IV_EM.pkml.gz",
+          "input_sha256": "99cdc0411f7b84f69244abf0b7907b1def36e23b8084462807499b2b984a3289",
+          "reference": "DXM/comparators/desipramine/results/DES_IV_EM/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Desipramine|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Desipramine|Concentration"
+          ],
+          "minimum_concentration": 0
+        },
+        {
+          "name": "DES_PO_AS2",
+          "input": "DXM/comparators/desipramine/models/DES_PO_AS2.pkml.gz",
+          "input_sha256": "8b927f61bc07577ccb24d83a30515ffecd0cfcb4eaf270c6f8cea0107dc26b86",
+          "reference": "DXM/comparators/desipramine/results/DES_PO_AS2/concentrations.csv",
+          "points": 2173,
+          "time_unit": "min",
+          "output_paths": [
+            "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+            "Organism|Liver|Periportal|Intracellular|Desipramine|Concentration",
+            "Organism|Liver|Pericentral|Intracellular|Desipramine|Concentration"
+          ],
+          "minimum_concentration": 0
+        }
+      ]
+    },
+    "snapshot": {
+      "status": "complete",
+      "case": "MCT",
+      "mode": "snapshot",
+      "started_at": "2026-10-23 03:06:05 UTC",
+      "completed_at": "2026-10-23 03:06:24 UTC",
+      "R": "R version 4.5.3 (2026-03-11)",
+      "ospsuite": "12.3.2",
+      "purpose": "Software reproduction only; no fitting or biological validation",
+      "runs": [
+        {
+          "input": "MCT/models/pilot/MCT_baseline.json",
+          "input_sha256": "fd01e29cfddd775d97968f0f40486ef8246ec5767775e8492949e6dd8520eb85",
+          "built_simulations": 2,
+          "outputs": [
+            "MCT_baseline-S1.pkml",
+            "MCT_baseline-S2.pkml"
+          ]
+        }
+      ]
+    }
+  },
+  "note": "MCT comparison converts µmol/L to ng/mL with MW 325.36 and min to h. Different output configurations/representations are retained; small PKML differences are reported, not zeroed.",
+  "cleanup": "Temporary reproduction outputs and migration-generation script removed; original evidence and compact verification retained."
+}

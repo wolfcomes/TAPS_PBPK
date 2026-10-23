@@ -1,0 +1,305 @@
+"path","value","unit","fixed","baseline_value"
+"Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|Km",4.65,"µmol/l",FALSE,4.65
+"Dextromethorphan-CYP2D6-AS=2 (dextrorphan)|kcat",242.45,"1/min",TRUE,242.45
+"Organism|VenousBlood|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|VenousBlood|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|VenousBlood|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|VenousBlood|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|ArterialBlood|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Bone|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Bone|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Brain|Intracellular|CYP2D6|Relative expression",0.00768702814,"",FALSE,0.00768702814
+"Organism|Brain|Intracellular|CYP2D6|Concentration",0.00321296891954023,"µmol/l",FALSE,0.00321296891954023
+"Organism|Brain|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Fat|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Fat|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Gonads|Intracellular|CYP2D6|Relative expression",0.768702814,"",FALSE,0.768702814
+"Organism|Gonads|Intracellular|CYP2D6|Concentration",0.351005851141552,"µmol/l",FALSE,0.351005851141552
+"Organism|Gonads|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Heart|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Heart|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Kidney|Intracellular|CYP2D6|Relative expression",0.0208304736,"",FALSE,0.0208304736
+"Organism|Kidney|Intracellular|CYP2D6|Concentration",0.0146178762105263,"µmol/l",FALSE,0.0146178762105263
+"Organism|Kidney|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Stomach|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Stomach|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Stomach|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Duodenum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Duodenum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Duodenum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperJejunum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|UpperJejunum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperJejunum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerJejunum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|LowerJejunum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerJejunum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperIleum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|UpperIleum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|UpperIleum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerIleum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|LowerIleum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|LowerIleum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Caecum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Caecum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Caecum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonAscendens|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonAscendens|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonAscendens|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonTransversum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonTransversum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonTransversum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonDescendens|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonDescendens|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonDescendens|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonSigmoid|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|ColonSigmoid|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|ColonSigmoid|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Rectum|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Lumen|Rectum|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lumen|Rectum|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Stomach|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Stomach|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Intracellular|CYP2D6|Concentration",0.0412427611337869,"µmol/l",FALSE,0.0412427611337869
+"Organism|SmallIntestine|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Concentration",0.0808358118222222,"µmol/l",FALSE,0.0808358118222222
+"Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Concentration",0.0699540679230769,"µmol/l",FALSE,0.0699540679230769
+"Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Concentration",0.0661383914909091,"µmol/l",FALSE,0.0661383914909091
+"Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Concentration",0.0649573487857143,"µmol/l",FALSE,0.0649573487857143
+"Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",0.0909402883,"",FALSE,0.0909402883
+"Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Concentration",0.0661383914909091,"µmol/l",FALSE,0.0661383914909091
+"Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Caecum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|LargeIntestine|Mucosa|Rectum|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",1,"",FALSE,1
+"Organism|Liver|Periportal|Intracellular|CYP2D6|Concentration",0.599700149925038,"µmol/l",FALSE,0.599700149925038
+"Organism|Liver|Periportal|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",1,"",FALSE,1
+"Organism|Liver|Pericentral|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Liver|Pericentral|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Lung|Intracellular|CYP2D6|Relative expression",0.0223404255,"",FALSE,0.0223404255
+"Organism|Lung|Intracellular|CYP2D6|Concentration",0.038517975,"µmol/l",FALSE,0.038517975
+"Organism|Lung|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Muscle|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Muscle|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Pancreas|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Pancreas|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|PortalVein|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Skin|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Skin|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Plasma|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Plasma|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|BloodCells|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|BloodCells|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Interstitial|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Interstitial|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Intracellular|CYP2D6|Relative expression",0,"",FALSE,0
+"Organism|Spleen|Intracellular|CYP2D6|Concentration",0,"µmol/l",FALSE,0
+"Organism|Spleen|Intracellular|Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Concentration",0,"µmol/l",FALSE,0
+"CYP3A4|Molecular weight",NA,"kg/µmol",FALSE,NA
+"CYP2D6|Reference concentration",0.4,"µmol/l",FALSE,0.4
+"CYP2D6|Molecular weight",NA,"kg/µmol",FALSE,NA
+"UGT2B15|Molecular weight",NA,"kg/µmol",FALSE,NA
+"lysosomal trapping mucosa|Molecular weight",NA,"kg/µmol",FALSE,NA
+"Dextromethorphan|Molecular weight",2.714e-07,"kg/µmol",FALSE,2.714e-07
+"Dextromethorphan-CYP3A4-Brown 2007 (sink) Metabolite|Molecular weight",NA,"kg/µmol",FALSE,NA
+"Dextromethorphan-CYP2D6-AS=2 (dextrorphan) Metabolite|Molecular weight",NA,"kg/µmol",FALSE,NA
+"Dextromethorphan-lysosomal trapping mucosa-lysosomal trapping (Kazmi 2013) Complex|Molecular weight",NA,"kg/µmol",FALSE,NA
+"Dextromethorphan-CYP3A4-Brown 2007 (sink)|Km",176.8,"µmol/l",FALSE,176.8
+"Dextromethorphan-CYP3A4-Brown 2007 (sink)|kcat",7.98,"1/min",TRUE,7.98

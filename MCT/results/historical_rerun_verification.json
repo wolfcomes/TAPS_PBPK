@@ -1,0 +1,35 @@
+{
+  "checked_simulations": 28,
+  "points_per_simulation": 505,
+  "sources": {
+    "pkml_run": "/data/home/zhangzhiyong/TAPS_PBPK/MCT/data/pbpk_models/project_pilot/rerun_ospsuite_20261010",
+    "snapshot_run": "/data/home/zhangzhiyong/TAPS_PBPK/MCT/data/pbpk_models/project_pilot/rerun_ospsuite_20261010_snapshot"
+  },
+  "max_auc_relative_difference": {
+    "pkml_rerun": 2.4280030430645638e-08,
+    "snapshot_rebuild": 2.4280030430645638e-08
+  },
+  "source_sha256": {
+    "input/MCT_Papp_proxy.json": "0a93650657b57f4c414fbd5d4433205af05808f49f489ae25eb7be6e163f207c",
+    "input/MCT_Papp_proxy_x0p1.json": "4190ad9747a0824f9dbb91f66a70614f3c5f631c20c0b13f16fedf6e446ff431",
+    "input/MCT_Papp_proxy_x10.json": "c14638076f984b8e21e1fe50f02f7b7bac0c901e2c52c4cc526bedd759ffeed3",
+    "input/MCT_Vmax_x3.json": "6248adc45d6c7db77a7b2056320a752d4792565b40435ed0fc83102e9b88e318",
+    "input/MCT_baseline.json": "fd01e29cfddd775d97968f0f40486ef8246ec5767775e8492949e6dd8520eb85",
+    "input/MCT_pKa5.json": "ee94fb896bc3f723e57848c78d0b5cac937ba8e242bc8f22ba115f0c2d1146ad",
+    "input/MCT_pKa8.json": "139c69bead89dd196dba6c56d8e4abfa58c766f5d3fcc15a60dae0048f203d62",
+    "output/MCT_Papp_proxy-S1.pkml": "80d81958b220a5119b539d28cbf632bfb8e164203cd14303d608e602bd79a569",
+    "output/MCT_Papp_proxy-S2.pkml": "497666829ed6270f1fef51c94b8d1f64692a540b852ce7acde28787e3a3dd3e6",
+    "output/MCT_Papp_proxy_x0p1-S1.pkml": "dc5d68e85825fadf73b8aa7004b9e0b14afc09a4c3b31fa0a476b7f9b531d593",
+    "output/MCT_Papp_proxy_x0p1-S2.pkml": "b66d3217fd295d33da365d47ae072d224e727d4423c0bff0cdd40826e750da63",
+    "output/MCT_Papp_proxy_x10-S1.pkml": "99dcad95460be18afea0555542c079b0c42a08653176cca9fe73ad4b03f838c6",
+    "output/MCT_Papp_proxy_x10-S2.pkml": "d0605a3a237b19f786d15084084aec10248a71593018e0d7dde33a9c85c26a20",
+    "output/MCT_Vmax_x3-S1.pkml": "80c2a67ae8e8d567298e20f07f22100a06d751453e245151a81353aa8faa7a12",
+    "output/MCT_Vmax_x3-S2.pkml": "36ffa36150d4569bc5e581ad2e26526bbf093aaadc1fcf686d9c046cf43f2d29",
+    "output/MCT_baseline-S1.pkml": "cf3b2430c8d1d4ac92d0acc50dd496a640f9d904e53c180f11aa92dc06d118df",
+    "output/MCT_baseline-S2.pkml": "a53d8fe5411abed8f355b053062b966c97bb46a976e66080c229db69a00ffa07",
+    "output/MCT_pKa5-S1.pkml": "edd48b06900cb5a285435930dc667760cf1d768d37e80115e8c30f964d283f69",
+    "output/MCT_pKa5-S2.pkml": "b9a9b25d5953a437f80bd20f2a98e4f3c39a3a8b324f9d56fad8fbcebed4d5d5",
+    "output/MCT_pKa8-S1.pkml": "5eca5a10675a7ac9b62636fa8fc4394582d474f5e913a8c9305e476d3afa1d43",
+    "output/MCT_pKa8-S2.pkml": "635a8a2f951cbeb53ab16f116cd1d73eadd006ea2bb40dc281552f6e9e728500"
+  }
+}

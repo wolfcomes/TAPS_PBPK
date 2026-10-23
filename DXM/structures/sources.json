@@ -1,0 +1,98 @@
+{
+  "identity_audit_date": "2026-10-15",
+  "audit_note": "Historical identity checks are retained; not a newly prepared catalytic system. File paths updated 2026-10-23.",
+  "files": [
+    {
+      "name": "dextromethorphan",
+      "file": "DXM/structures/ligands/dextromethorphan_CID5360696_3D.sdf",
+      "pubchem_cid": "5360696",
+      "formula": "C18H25NO",
+      "formal_charge": 0,
+      "atoms_including_explicit_hydrogens": 45,
+      "conformers": 1,
+      "is_3d": true,
+      "chiral_centers": [
+        [
+          2,
+          "S"
+        ],
+        [
+          3,
+          "S"
+        ],
+        [
+          4,
+          "S"
+        ]
+      ],
+      "note": "neutral free-base PubChem entry; stereochemistry as PubChem record",
+      "sha256": "2aa13a6b5a03b33b8796549a7a2072daf8572d68cd38aad345f0070094d679b1",
+      "identity_note": "Full InChIKey derived from reloaded 3D SDF matches PubChem identity record.",
+      "pubchem_title": "Dextromethorphan",
+      "reference_inchikey": "MKXZASYAUGDDCJ-NJAFHUGGSA-N",
+      "sdf_3d_inchikey": "MKXZASYAUGDDCJ-NJAFHUGGSA-N",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5360696/record/SDF?record_type=3d"
+    },
+    {
+      "name": "dextrorphan",
+      "file": "DXM/structures/ligands/dextrorphan_CID5360697_3D.sdf",
+      "pubchem_cid": "5360697",
+      "formula": "C17H23NO",
+      "formal_charge": 0,
+      "atoms_including_explicit_hydrogens": 42,
+      "conformers": 1,
+      "is_3d": true,
+      "chiral_centers": [
+        [
+          2,
+          "S"
+        ],
+        [
+          3,
+          "S"
+        ],
+        [
+          4,
+          "S"
+        ]
+      ],
+      "note": "neutral PubChem entry; metabolite product reference",
+      "sha256": "9f0d95980d884a11626eae4f3a45cbb1cf2a7aaa8d1b40322c0d16217fe14fea",
+      "identity_note": "Full InChIKey derived from reloaded 3D SDF matches PubChem identity record.",
+      "pubchem_title": "Dextrorphan",
+      "reference_inchikey": "JAQUASYNZVUNQP-PVAVHDDUSA-N",
+      "sdf_3d_inchikey": "JAQUASYNZVUNQP-PVAVHDDUSA-N",
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5360697/record/SDF?record_type=3d"
+    },
+    {
+      "file": "DXM/structures/protein/2F9Q_CYP2D6_original.pdb",
+      "chains": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "atom_records": 14421,
+      "residues_including_heterogens": 1827,
+      "heme_atom_records": 172,
+      "heme_iron_records": 4,
+      "note": "human CYP2D6 X-ray experimental structure; original crystal coordinate file with four chains; no functional oligomer assignment, 3.00 A; heme included; no dextromethorphan co-crystallized",
+      "sha256": "c621ce279d102d6cb01f79019daaa58da890db3f6408a48d3d65644903cd6d7e",
+      "source_url": "https://files.rcsb.org/download/2F9Q.pdb"
+    },
+    {
+      "file": "DXM/structures/protein/CYP2D6_2F9Q_chainA_with_HEM_crystal_waters.pdb",
+      "chains": [
+        "A"
+      ],
+      "atom_records": 3616,
+      "residues_including_heterogens": 459,
+      "heme_atom_records": 43,
+      "heme_iron_records": 1,
+      "note": "convenience chain-A receptor derived from 2F9Q; includes HEM and crystallographic waters; chain A has engineered substitutions and construct truncation",
+      "sha256": "9f948f209f0d6ddc7fff84cf1c12e7451ae6cd0a0b1417e53a427b5e38057354",
+      "source_url": "https://files.rcsb.org/download/2F9Q.pdb",
+      "derivation": "Select chain A from source PDB, retaining HEM and, where named, crystal waters. Coordinates unchanged; relevant LINK/CONECT retained. No repair or force-field preparation."
+    }
+  ]
+}

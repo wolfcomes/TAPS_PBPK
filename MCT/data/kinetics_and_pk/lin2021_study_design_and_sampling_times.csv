@@ -1,0 +1,17 @@
+﻿route,dose_mg_kg,scheduled_sample_index,time_h,administered_compound,measured_analytes,matrix,n_per_group,sex,strain,body_weight_g,age_weeks,source,data_type
+IV,1,1,0.05,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,2,0.167,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,3,0.5,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,4,1,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,5,2,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,6,4,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,7,8,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+IV,1,8,24,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,1,0.167,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,2,0.333,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,3,0.667,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,4,1,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,5,2,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,6,4,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,7,8,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration
+PO,10,8,24,MCT,MCT; MNO,plasma,5,male,Sprague-Dawley,180-220,6-9,Lin2021 accepted PDF pp7-8 section2.6,sampling_schedule_only_no_concentration

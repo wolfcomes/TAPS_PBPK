@@ -1,0 +1,2568 @@
+{
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2D6",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2D6"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B15",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "Organism|Bone|Intracellular|UGT2B15|Relative expression",
+          "Value": 5.8295964126e-06
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|UGT2B15|Relative expression",
+          "Value": 3.1390134529e-06
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0034753363229
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.00011278026906
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|UGT2B15|Relative expression",
+          "Value": 4.1031390135e-05
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0007600896861
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B15|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B15|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|UGT2B15|Relative expression",
+          "Value": 5.7623318386e-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|UGT2B15|Relative expression",
+          "Value": 7.1748878924e-05
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.021793722
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0013430493274
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|UGT2B15|Relative expression",
+          "Value": 6.1883408072e-05
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|UGT2B15|Relative expression",
+          "Value": 0.0260089686
+        },
+        {
+          "Path": "UGT2B15|Reference concentration",
+          "Value": 2.48,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT2B15|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B15|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "OtherProtein",
+      "Species": "Human",
+      "Molecule": "lysosomal trapping mucosa",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "lysosomal trapping mucosa|Reference concentration",
+          "Value": 500.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "lysosomal trapping mucosa|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "lysosomal trapping mucosa|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|lysosomal trapping mucosa|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|lysosomal trapping mucosa|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|lysosomal trapping mucosa|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|lysosomal trapping mucosa|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|lysosomal trapping mucosa|Relative expression",
+          "Value": 1.0
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Antecip Bioventures EM, n=10 clean",
+      "Seed": 63527328,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Armani 2017 EM, n=20 clean",
+      "Seed": 386151078,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 41.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 173.0,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Capon 1996 EM, n= 6 clean",
+      "Seed": 386415281,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 22.4,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 70.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Capon 1996 PM, n=6 clean",
+      "Seed": 386671296,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 22.4,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Duedahl 2005 (89), n=24 clean",
+      "Seed": 386833046,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Dumond 2010 EM, n=23 clean",
+      "Seed": 387047171,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 76.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 174.3,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Edwards 2017, n=48 clean",
+      "Seed": 387235062,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.9,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 76.2,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.8,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Ermer 2015, n= 30 clean",
+      "Seed": 387919656,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 35.6,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 78.1,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 171.6,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Feld 2013 NM, n=17 clean",
+      "Seed": 388166343,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 67.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.6,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.8,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy",
+        "UGT2B15|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Gazzaz 2018 NM, n=16, AS= 1.25 clean",
+      "Seed": 389437625,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 33.8,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.4,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 175.0,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Gorski 2004 EM, n=11 clean",
+      "Seed": 389857187,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 31.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Gorski 2004 PM, n=1 clean",
+      "Seed": 390576546,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 31.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 79.0,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Kakuda 2014 EM, n=14 clean",
+      "Seed": 390815671,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 34.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.55,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 175.64,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Khalilieh 2018 (129) EM, n=20 clean",
+      "Seed": 391201968,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.2,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 87.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 175.08,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Nyunt 2008 (130) EM, n=12 clean",
+      "Seed": 391904500,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 40.0,
+          "Unit": "year(s)"
+        },
+        "Height": {
+          "Value": 175.11,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Nakashima 2007 (123) EM, n=24 clean Japanese",
+      "Seed": 392830390,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Japanese_Population",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.7,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 64.2,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Qiu 2016 NM, n=6 clean Asian",
+      "Seed": 393019906,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Asian_Tanaka_1996",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.38,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 60.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.44,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Sager 2014 (135) NM, n=10 clean",
+      "Seed": 393491125,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 72.0,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 172.0,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Schadel 1995 (90) NM, n=5 clean",
+      "Seed": 393685375,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 26.4,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 58.32,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 162.52,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Schadel 1995 (91) PM, n=4 clean",
+      "Seed": 402084218,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 32.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 73.34,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 175.78,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Stage 2018 EM, n=12 clean",
+      "Seed": 402261250,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 22.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 71.25,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Storelli 2018 IM, n= 1 female clean",
+      "Seed": 402643484,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 24.0,
+          "Unit": "year(s)"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Storelli 2018 NM, n= 17 females clean",
+      "Seed": 403244359,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "FEMALE",
+        "Age": {
+          "Value": 27.0,
+          "Unit": "year(s)"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Tennezé 1999 (122) EM, n=36 clean",
+      "Seed": 403492843,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 25.7,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 76.2,
+          "Unit": "kg"
+        },
+        "Height": {
+          "Value": 170.8,
+          "Unit": "cm"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Yamazaki 2017 IM, n= 12 Asians clean",
+      "Seed": 403773078,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Japanese_Population",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 36.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 61.87,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Yamazaki 2017 NM, n=11 Asians clean",
+      "Seed": 403967046,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "Japanese_Population",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 36.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 61.87,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    },
+    {
+      "Name": "Zawertailo 2010 (188) NM, n=6 clean",
+      "Seed": 404165546,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 27.5,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 70.17,
+          "Unit": "kg"
+        }
+      },
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP2D6|Human|Healthy",
+        "UGT2B15|Human|Healthy",
+        "lysosomal trapping mucosa|Human|Healthy"
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Dextromethorphan",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "LogP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 4.1,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Spaggiari 2014"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.35,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Taylor 2016"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 15.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Benet 2011"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Benet 2011"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 2.48e-06,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.1,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Spaggiari 2014"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Lutz 2012 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.134,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 90.89,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Brown 2007 (sink)",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.61,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 176.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Brown 2007"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l"
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=2 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 242.45,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.25 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 115.17,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.5 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 32.91,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 96.64,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "SpecificBinding",
+          "DataSource": "lysosomal trapping (Kazmi 2013)",
+          "Molecule": "lysosomal trapping mucosa",
+          "Parameters": [
+            {
+              "Name": "koff",
+              "Value": 709939.97,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            },
+            {
+              "Name": "Kd",
+              "Value": 74.21,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=0.25 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Metabolite": "Dextrorphan",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 5.3,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=1.5 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 151.81,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6' on 2021-01-19 09:07"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "AS=3 (dextrorphan)",
+          "Molecule": "CYP2D6",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 10.0,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.65,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 413.19,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 271.4,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Unknown",
+            "Description": "Sager 2014"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Dextrorphan",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "LogP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.9,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "metabocard/ChemAxon"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.42,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "Other",
+                "Description": "Watanabe 2018"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 0.17,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "metabocard/ChemAxon"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4,
+              "ValueOrigin": {
+                "Source": "Database",
+                "Method": "Other",
+                "Description": "metabocard/ChemAxon"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 9.1,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Spaggiari 2014"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 10.1,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Method": "Other",
+            "Description": "Spaggiari 2014"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Lutz 2012 (sink)",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.8,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Km",
+              "Value": 910.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.41,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "Lutz 2012 (Dextrorphan-O-glucuronide)",
+          "Molecule": "UGT2B15",
+          "Metabolite": "Dextrorphan-O-glucuronide",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.3,
+              "Unit": "nmol/min/mg mic. protein"
+            },
+            {
+              "Name": "Content of CYP proteins in liver microsomes",
+              "Value": 62.1,
+              "Unit": "pmol/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Achour 2014"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 184.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Lutz 2012"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 1137.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 257.37,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "metabocard/ChemAxon"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Dextrorphan-O-glucuronide",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "LogP",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 0.2928540753,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6 - sol' on 2021-02-26 11:12"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.366,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 5' on 2020-10-21 11:17"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1200.0,
+              "Unit": "mg/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 6 - sol' on 2021-02-26 11:12"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Acid",
+          "Pka": 2.85,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Type": "Base",
+          "Pka": 9.82,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Assumption",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 4.92,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Berezhkovskiy",
+        "Cellular permeability - Charge dependent Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 433.5,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "capsule/solution",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "cocktail capsule (weibull)",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 46.05,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Optimized"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 1.05,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Optimized"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "dextromethorphan base 0.5 mg/kg iv infusion 30 min s.d.",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.5,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 30 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 21.99,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 15 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 11.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan base 5 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 5.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 80 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 58.64,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 60 mg peroral s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 43.98,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 30 mg peroral b.i.d. 15 doses",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 26.061,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "dextromethorphan hydrobromide 60 mg b.i.d. 8 days",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 43.98,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 16.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "dextromethorphan base 3 mg/kg s.d.",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 3.0,
+          "Unit": "mg/kg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "ObserverSets": [
+    {
+      "Name": "dextrorphan-total mass",
+      "Observers": [
+        {
+          "Name": "Dextrorphan-total Plasma (Peripheral Venous Blood)",
+          "Dimension": "Concentration (mass)",
+          "ContainerCriteria": [
+            {
+              "Tag": "PeripheralVenousBlood",
+              "Type": "MatchTag"
+            }
+          ],
+          "Formula": {
+            "Name": "OBS_Plasma_PeripheralVenousBlood",
+            "Formula": "MW_DXT*(fQ_art*(C_pls_art_DXG+C_pls_art_DXT)+fQ_bon*(C_pls_bon_DXT+C_pls_bon_DXG)+fQ_fat*(C_pls_fat_DXT+C_pls_fat_DXG)+fQ_mus*(C_pls_mus_DXT+C_pls_mus_DXG)+fQ_skn*(C_pls_skn_DXT+C_pls_skn_DXG))",
+            "References": [
+              {
+                "Alias": "fQ_art",
+                "Dimension": "Fraction",
+                "Path": "Organism|ArterialBlood|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_bon",
+                "Dimension": "Fraction",
+                "Path": "Organism|Bone|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_fat",
+                "Dimension": "Fraction",
+                "Path": "Organism|Fat|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_mus",
+                "Dimension": "Fraction",
+                "Path": "Organism|Muscle|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "fQ_skn",
+                "Dimension": "Fraction",
+                "Path": "Organism|Skin|Peripheral blood flow fraction"
+              },
+              {
+                "Alias": "C_pls_art_DXG",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|Dextrorphan-O-glucuronide|Concentration"
+              },
+              {
+                "Alias": "C_pls_art_DXT",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|ArterialBlood|Plasma|Dextrorphan|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon_DXT",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|Dextrorphan|Concentration"
+              },
+              {
+                "Alias": "C_pls_bon_DXG",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Bone|Plasma|Dextrorphan-O-glucuronide|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat_DXT",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|Dextrorphan|Concentration"
+              },
+              {
+                "Alias": "C_pls_fat_DXG",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Fat|Plasma|Dextrorphan-O-glucuronide|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus_DXT",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|Dextrorphan|Concentration"
+              },
+              {
+                "Alias": "C_pls_mus_DXG",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Muscle|Plasma|Dextrorphan-O-glucuronide|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn_DXT",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|Dextrorphan|Concentration"
+              },
+              {
+                "Alias": "C_pls_skn_DXG",
+                "Dimension": "Concentration (molar)",
+                "Path": "Organism|Skin|Plasma|Dextrorphan-O-glucuronide|Concentration"
+              },
+              {
+                "Alias": "MW_DXT",
+                "Dimension": "Molecular weight",
+                "Path": "Dextrorphan|Molecular weight"
+              }
+            ],
+            "Dimension": "Concentration (mass)"
+          },
+          "MoleculeList": {
+            "ForAll": false,
+            "MoleculeNamesToInclude": [
+              "Dextrorphan"
+            ]
+          },
+          "Type": "Container"
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "DXM_PO_AS2",
+      "Model": "4Comp",
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 3,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 200,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 3,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 24,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 120,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 12,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|dextromethorphan hydrobromide 15 mg peroral s.d.|capsule/solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Qiu 2016 NM, n=6 clean Asian",
+      "Compounds": [
+        {
+          "Name": "Dextromethorphan",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Brown 2007 (sink)",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-AS=2 (dextrorphan)",
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "Name": "lysosomal trapping mucosa-lysosomal trapping (Kazmi 2013)",
+              "MoleculeName": "lysosomal trapping mucosa"
+            }
+          ],
+          "Protocol": {
+            "Name": "dextromethorphan hydrobromide 15 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "capsule/solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "SimulationClassifications": [
+    {
+      "Name": "Base model Development",
+      "Classifications": [
+        {
+          "Name": "PO - capsule/solution",
+          "Classifiables": [
+            "Tennezé1999_EM_80mg_DexHBr",
+            "Schadel1995_PM_30mg_DexHBr",
+            "Schadel1995_EM_30mg_DexHBr"
+          ]
+        },
+        {
+          "Name": "IV",
+          "Classifiables": [
+            "Duedahl2005_EM_0.5mgkg_DexBase"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Base model verification",
+      "Classifications": [
+        {
+          "Name": "PO - capsule/solution",
+          "Classifiables": [
+            "Edwards2017_EM,_30mg_DexHBr",
+            "Nakashima2007_EM_30mg_DexHBr",
+            "AntecipBioventures_EM_60mg_DexHBr_BID",
+            "Feld2013_EM_60mg_DexHBr"
+          ]
+        },
+        {
+          "Name": "PO - cocktail capsule",
+          "Classifiables": [
+            "Nyunt2008_EM_30mg_DexHBr",
+            "Sager2014_EM_30mg_DexHBr",
+            "Stage2018_EM_30mg_DexHBr",
+            "Armani2017_EM_30mg_DexHBr",
+            "Dumond2010_EM_30mg_DexHBr",
+            "Kakuda2014_EM_30mg_DexHBr",
+            "Khalilieh2018_EM_30mg_DexHBr",
+            "Ermer2015_EM_30mg_DexHBr"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "DGI model development",
+      "Classifications": [
+        {
+          "Name": "PO - capsule/solution",
+          "Classifiables": [
+            "Qiu2016_NM_15mg_DexHBr_AS=2",
+            "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+            "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+            "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "DGI model verification",
+      "Classifications": [
+        {
+          "Name": "PO - capsule/solution",
+          "Classifiables": [
+            "Capon1996_EM_30mg_DexHBr",
+            "Capon1996_PM_30mg_DexHBr",
+            "Gorski2004_PM_30mg_DexHBr",
+            "Storelli2018_NM_5mg_DexBase_AS=2",
+            "Yamazaki2017_NM_30mg_DexHBr_AS=2",
+            "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
+            "Storelli2018_IM_5mg_DexBase",
+            "Gorski2004_EM_30mg_DexHBr"
+          ]
+        },
+        {
+          "Name": "PO - cocktail capsule",
+          "Classifiables": [
+            "Gazzaz2018_NM_30mg_DexHBr_AS=1.25"
+          ]
+        }
+      ]
+    }
+  ]
+}

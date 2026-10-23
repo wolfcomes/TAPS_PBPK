@@ -1,0 +1,18 @@
+{
+  "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Organism|Liver|Periportal|Intracellular|Dextromethorphan|Concentration": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Organism|Liver|Pericentral|Intracellular|Dextromethorphan|Concentration": {
+    "unit": "µmol/l",
+    "dimension": "Concentration (molar)"
+  },
+  "Time": {
+    "unit": "min",
+    "dimension": "Time"
+  }
+}
