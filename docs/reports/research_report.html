@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="source-sha256" content="201ad1f011500842ed9588bd29517492968536976e89625fdd1879d6b1ea573c">
+<meta name="source-sha256" content="ac4580cf1ebab0e47aeb7d3c67e8a328ef73682fe474e699b68d1f709ab8589f">
 <title>TAPS–QM/MM–PBPK：研究依据、案例选择与当前结论</title>
 <style>
 :root {color-scheme:light; --ink:#243247; --muted:#617188; --line:#dbe3ec; --link:#145fa0;}
@@ -245,7 +245,7 @@ Vmax = kcat × Eactive
 <p>本地只将母体每途径 7 个 0–8 h 均值点作近似数字化，保留像素与来源；未可靠提取 SD，未取得个体原始表，24 h 近定量限点不赋零。放射性当量含代谢物贡献，不能与特异母体 LC–MS 浓度混合拟合。</p>
 <h3 id="4-3-cyp3a1-证据到哪一层">4.3 CYP3A1 证据到哪一层</h3>
 <p>Reid 等 1998 的 SD 大鼠微粒体研究支持 CYP3A 家族参与 MCT 代谢及共价结合；现有本地信息限于摘要，未取得原始全文，不能凭摘要唯一分出 CYP3A1/3A2。[7] Yao 等 2014 是小鼠肝 CYP450/CYP3A 相关研究，不能直接指定一个大鼠亚型。[8]</p>
-<p>早前选择 CYP3A1 的直接底物线索之一来自 <strong>Clivorine</strong>：Lin 等 2003 大鼠研究（DOI 10.1021/tx0340302）及后续 2007 研究（10.1124/dmd.106.014100）涉及 CYP3A1/3A2 活化及性别/水解支路。它们不能转移成 MCT 的单酶参数证据。Clivorine 有 PK 文献线索，当前仍缺与本项目同程度的已整理模型和反应特异参数；保留备选，不继续扩展活动目录。</p>
+<p>早前选择 CYP3A1 的直接底物线索之一来自 <strong>Clivorine</strong>：Lin 等 2003 大鼠研究（DOI 10.1021/tx0340302；<a href="../../MCT/references/Lin2003_Clivorine_CYP3A1_CYP3A2.md">本地题录与原摘要</a>，全文 PDF 尚未取得）及后续 2007 研究（10.1124/dmd.106.014100）涉及 CYP3A1/3A2 活化及性别/水解支路。它们不能转移成 MCT 的单酶参数证据。Clivorine 有 PK 文献线索，当前仍缺与本项目同程度的已整理模型和反应特异参数；保留备选，不继续扩展活动目录。</p>
 <p>项目 PPT 中 Retrorsine/Clivorine 的大鼠微粒体表观参数，也不能换标签作为 MCT，或直接归为某一个 CYP。30 min 耗竭法还需核对初速、时间/蛋白线性、结合、酶活变化与实验性别/批次。</p>
 <h3 id="4-4-当前母体-pbpk-的偏差">4.4 当前母体 PBPK 的偏差</h3>
 <p>pilot 使用通用 200 g Rat、UNKNOWN 性别，默认 PK-Sim Standard 分配/通透性，pKa=6.5 和非限制性溶解度含假设；仅建立聚合肝 <code>MCT_TotalMetabolism</code>，没有显式 MNO/脱氢生成、肠代谢或 OCT1 摄取。自动 <code>Metabolite</code> 仅为记账汇。</p>
@@ -324,7 +324,7 @@ Vmax = kcat × Eactive
 <h3 id="4-5-接入活化参数前的必要条件">4.5 接入活化参数前的必要条件</h3>
 <ol>
 <li>确认 MCT 特定活化反应的大鼠 CYP3A1 贡献与其他亚型背景；现有总耗竭参数不能替代该证据。</li>
-<li>准备经原文结构、立体化学、电荷/互变与原子映射核验的完整脱氢产物/中间体。当前只有 MCT、MNO SDF，没有合格的脱氢产物输入。</li>
+<li>准备经原文结构、立体化学、电荷/互变与原子映射核验的完整脱氢产物/中间体。现已取得并核验 <a href="../../MCT/structures/ligands/dehydromonocrotaline_CID104764_3D.sdf">PubChem CID 104764 的脱氢野百合碱 3D SDF</a>：C16H21NO6，完整 InChIKey 为 ZONSVLURFASOJK-LLAGZRPASA-N，四个已指定的 R 立体中心。它是完整吡咯酯的数据库产物参考构象，仍需按原文反应图核对原子映射、中间体及酶内/酶外边界，尚未成为催化体系输入。</li>
 <li>获得反应特异的产物生成或可靠捕获初速数据，解释捕获效率和后续反应；母体 PK 不能单独识别活化支路。</li>
 <li>修正 IV 分布/清除/IVIVE 与 PO 吸收背景。若用 Lin 数据校准，应另留独立研究，或明确仅为条件性预测。</li>
 <li>拆分聚合母体清除已覆盖的目标份额，防止增加 CYP3A1 支路时重复计数。</li>
@@ -494,8 +494,8 @@ Vmax = kcat × Eactive
 </tr>
 <tr>
 <td>脱氢完整产物 SDF 与催化体系</td>
-<td>尚未核验/准备</td>
-<td>不用 MNO、DHP 或裸 AlphaFold 结构代替</td>
+<td>PubChem CID 104764 原始 3D SDF 已下载，RDKit 重读完整 InChIKey、分子式和立体化学匹配；催化体系尚未准备</td>
+<td>数据库身份核验不等于反应原子映射、酶结合构象或中间体已确定</td>
 </tr>
 <tr>
 <td>TAPS/QM/MM 分子推导参数</td>
